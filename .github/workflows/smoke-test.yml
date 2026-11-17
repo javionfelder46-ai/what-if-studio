@@ -24,7 +24,9 @@ jobs:
         run: npm ci
 
       - name: Render frames 0-9
-        run: node scripts/render_frames_png.mjs zenn-006 0 9 out/zenn-006/smoke.mp4
+        run: |
+          mkdir -p ${{ runner.temp }}/bundle-tmp
+          node scripts/render_frames_png.mjs zenn-006 0 9 out/zenn-006/smoke.mp4
         env:
           TMPDIR: ${{ runner.temp }}/bundle-tmp
 
