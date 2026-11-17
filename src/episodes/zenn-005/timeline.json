@@ -1,0 +1,743 @@
+{
+ "slug": "zenn-005",
+ "title": "WHAT IF YOU WOKE UP 100 YEARS IN THE FUTURE?",
+ "fps": 30,
+ "total": 18834,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 135,
+   "t0": 0,
+   "t1": 135,
+   "line": "You open your eyes."
+  },
+  {
+   "shot": "S2",
+   "a": 135,
+   "b": 270,
+   "t0": 0,
+   "t1": 135,
+   "line": "Your phone says November 14, 2126."
+  },
+  {
+   "shot": "S3",
+   "a": 270,
+   "b": 1200,
+   "t0": 0,
+   "t1": 930,
+   "line": "You have twenty-four hours."
+  },
+  {
+   "shot": "S4",
+   "a": 1200,
+   "b": 1473,
+   "t0": 0,
+   "t1": 273,
+   "line": "You step outside."
+  },
+  {
+   "shot": "S5",
+   "a": 1473,
+   "b": 2004,
+   "t0": 0,
+   "t1": 531,
+   "line": "The ocean didn't flood the city."
+  },
+  {
+   "shot": "S6",
+   "a": 2004,
+   "b": 2502,
+   "t0": 0,
+   "t1": 498,
+   "line": "Here's the number."
+  },
+  {
+   "shot": "S7",
+   "a": 2502,
+   "b": 2943,
+   "t0": 0,
+   "t1": 441,
+   "line": "And it doesn't stop in 2100."
+  },
+  {
+   "shot": "S8",
+   "a": 2943,
+   "b": 3363,
+   "t0": 0,
+   "t1": 420,
+   "line": "So the first thing you learn about the future: the map changed."
+  },
+  {
+   "shot": "S9",
+   "a": 3363,
+   "b": 3636,
+   "t0": 0,
+   "t1": 273,
+   "line": "The sea moved."
+  },
+  {
+   "shot": "S10",
+   "a": 3636,
+   "b": 3840,
+   "t0": 0,
+   "t1": 204,
+   "line": "Pause and guess."
+  },
+  {
+   "shot": "S11",
+   "a": 3840,
+   "b": 4371,
+   "t0": 0,
+   "t1": 531,
+   "line": "The United Nations ran the numbers."
+  },
+  {
+   "shot": "S12",
+   "a": 4371,
+   "b": 4767,
+   "t0": 0,
+   "t1": 396,
+   "line": "The future isn't more crowded."
+  },
+  {
+   "shot": "S13",
+   "a": 4767,
+   "b": 5424,
+   "t0": 0,
+   "t1": 657,
+   "line": "In 2019, you could expect 72.6 years."
+  },
+  {
+   "shot": "S14",
+   "a": 5424,
+   "b": 5820,
+   "t0": 0,
+   "t1": 396,
+   "line": "In 2018, for the first time in all of history, people over 65 outnumbered children under five."
+  },
+  {
+   "shot": "S15",
+   "a": 5820,
+   "b": 6318,
+   "t0": 0,
+   "t1": 498,
+   "line": "Fewer babies, longer lives, a world that got older instead of bigger."
+  },
+  {
+   "shot": "S16",
+   "a": 6318,
+   "b": 6738,
+   "t0": 0,
+   "t1": 420,
+   "line": "At night, the city glows."
+  },
+  {
+   "shot": "S17",
+   "a": 6738,
+   "b": 7440,
+   "t0": 0,
+   "t1": 702,
+   "line": "This is what powers it."
+  },
+  {
+   "shot": "S18",
+   "a": 7440,
+   "b": 8040,
+   "t0": 0,
+   "t1": 600,
+   "line": "The machine that proves it is called ITER."
+  },
+  {
+   "shot": "S19",
+   "a": 8040,
+   "b": 8595,
+   "t0": 0,
+   "t1": 555,
+   "line": "It doesn't make electricity itself — that's the next reactor's job."
+  },
+  {
+   "shot": "S20",
+   "a": 8595,
+   "b": 9228,
+   "t0": 0,
+   "t1": 633,
+   "line": "The first proof came in December 2022."
+  },
+  {
+   "shot": "S21",
+   "a": 9228,
+   "b": 9759,
+   "t0": 0,
+   "t1": 531,
+   "line": "The experts say real fusion power plants show up in the 2040s or 2050s."
+  },
+  {
+   "shot": "S22",
+   "a": 9759,
+   "b": 10065,
+   "t0": 0,
+   "t1": 306,
+   "line": "Look up."
+  },
+  {
+   "shot": "S23",
+   "a": 10065,
+   "b": 10551,
+   "t0": 0,
+   "t1": 486,
+   "line": "Humans landed on Mars in the late 2030s."
+  },
+  {
+   "shot": "S24",
+   "a": 10551,
+   "b": 11277,
+   "t0": 0,
+   "t1": 726,
+   "line": "A Mars trip takes two and a half to three years."
+  },
+  {
+   "shot": "S25",
+   "a": 11277,
+   "b": 11910,
+   "t0": 0,
+   "t1": 633,
+   "line": "They don't just visit."
+  },
+  {
+   "shot": "S26",
+   "a": 11910,
+   "b": 12240,
+   "t0": 0,
+   "t1": 330,
+   "line": "You spent your whole life thinking Mars was a poster on a classroom wall."
+  },
+  {
+   "shot": "S27",
+   "a": 12240,
+   "b": 12828,
+   "t0": 0,
+   "t1": 588,
+   "line": "The sea moved."
+  },
+  {
+   "shot": "S28",
+   "a": 12828,
+   "b": 13146,
+   "t0": 0,
+   "t1": 318,
+   "line": "Mara runs the noodle stall."
+  },
+  {
+   "shot": "S29",
+   "a": 13146,
+   "b": 13263,
+   "t0": 0,
+   "t1": 117,
+   "line": "\"Is this real?"
+  },
+  {
+   "shot": "S30",
+   "a": 13263,
+   "b": 13398,
+   "t0": 0,
+   "t1": 135,
+   "line": "\"You're the third one this month."
+  },
+  {
+   "shot": "S31",
+   "a": 13398,
+   "b": 13515,
+   "t0": 0,
+   "t1": 117,
+   "line": "\"The third one?"
+  },
+  {
+   "shot": "S32",
+   "a": 13515,
+   "b": 13632,
+   "t0": 0,
+   "t1": 117,
+   "line": "\"No."
+  },
+  {
+   "shot": "S33",
+   "a": 13632,
+   "b": 13749,
+   "t0": 0,
+   "t1": 117,
+   "line": "\"Do they stay?"
+  },
+  {
+   "shot": "S34",
+   "a": 13749,
+   "b": 14157,
+   "t0": 0,
+   "t1": 408,
+   "line": "\"One did."
+  },
+  {
+   "shot": "S35",
+   "a": 14157,
+   "b": 14679,
+   "t0": 0,
+   "t1": 522,
+   "line": "Mara's wrist buzzes."
+  },
+  {
+   "shot": "S36",
+   "a": 14679,
+   "b": 15564,
+   "t0": 0,
+   "t1": 885,
+   "line": "They've seen this before."
+  },
+  {
+   "shot": "S37",
+   "a": 15564,
+   "b": 16005,
+   "t0": 0,
+   "t1": 441,
+   "line": "Two hours left."
+  },
+  {
+   "shot": "S38",
+   "a": 16005,
+   "b": 16323,
+   "t0": 0,
+   "t1": 318,
+   "line": "Midnight is nine minutes away."
+  },
+  {
+   "shot": "S39",
+   "a": 16323,
+   "b": 16902,
+   "t0": 0,
+   "t1": 579,
+   "line": "Time travel has a catch nobody mentions."
+  },
+  {
+   "shot": "S40",
+   "a": 16902,
+   "b": 17196,
+   "t0": 0,
+   "t1": 294,
+   "line": "The timer hits zero."
+  },
+  {
+   "shot": "S41",
+   "a": 17196,
+   "b": 17526,
+   "t0": 0,
+   "t1": 330,
+   "line": "You open your eyes."
+  },
+  {
+   "shot": "S42",
+   "a": 17526,
+   "b": 18714,
+   "t0": 0,
+   "t1": 1188,
+   "line": "You went to sleep in 2026."
+  },
+  {
+   "shot": "S43",
+   "a": 18714,
+   "b": 18834,
+   "t0": 0,
+   "t1": 120,
+   "line": ""
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 67,
+   "len": 135,
+   "first": 0,
+   "line": "You open your eyes.",
+   "note": "Jake in a white room, ceiling panels glowing soft blue. Camera: slow push-in. Detective\nsneaks in the background, behind the door frame, in shadow."
+  },
+  {
+   "id": "S2",
+   "size": "wide",
+   "key": 67,
+   "len": 135,
+   "first": 135,
+   "line": "Your phone says November 14, 2126.",
+   "note": "Phone screen close-up: the date reads November 14, 2126. POV shift to Jake's hand holding it."
+  },
+  {
+   "id": "S3",
+   "size": "wide",
+   "key": 465,
+   "len": 930,
+   "first": 270,
+   "line": "You have twenty-four hours.",
+   "note": "Detective faces camera, magnifying glass in hand. Timer appears top corner: 23:59:59.\nCamera: hold still. OPEN LOOP: the choice is the hook — the viewer must stay to see it.\nThe 24-hour rule lands by ~10s."
+  },
+  {
+   "id": "S4",
+   "size": "wide",
+   "key": 136,
+   "len": 273,
+   "first": 1200,
+   "line": "You step outside.",
+   "note": "Wide shot: Jake steps out onto a street. The road is there. Water glints at the end of it.\nCamera: slow pull back."
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 265,
+   "len": 531,
+   "first": 1473,
+   "line": "The ocean didn't flood the city.",
+   "note": "The old boardwalk, now a sea wall. People walk on top of it. A kid fishes off the wall.\nCamera: gentle pan right."
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 249,
+   "len": 498,
+   "first": 2004,
+   "line": "Here's the number.",
+   "note": "On-screen text: \"+0.28 to +1.01 m by 2100.\" Detective points at the number. Camera: slow push-in."
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 220,
+   "len": 441,
+   "first": 2502,
+   "line": "And it doesn't stop in 2100.",
+   "note": "A child splashes at the base of the wall. Jake watches, shoes dry by half a step.\nCamera: hold still."
+  },
+  {
+   "id": "S8",
+   "size": "wide",
+   "key": 210,
+   "len": 420,
+   "first": 2943,
+   "line": "So the first thing you learn about the future: the map changed.",
+   "note": "Jake looks back at his street, then at the water. Camera: slow push-in on Jake."
+  },
+  {
+   "id": "S9",
+   "size": "wide",
+   "key": 136,
+   "len": 273,
+   "first": 3363,
+   "line": "The sea moved.",
+   "note": "Detective faces camera. The timer ticks in the corner: 22:41:07. Camera: hold still.\nRE-HOOK: promise the next chapter's surprise."
+  },
+  {
+   "id": "S10",
+   "size": "wide",
+   "key": 102,
+   "len": 204,
+   "first": 3636,
+   "line": "Pause and guess.",
+   "note": "A park. Old people playing chess. A few children. Nobody in a rush. Camera: gentle pan left."
+  },
+  {
+   "id": "S11",
+   "size": "wide",
+   "key": 265,
+   "len": 531,
+   "first": 3840,
+   "line": "The United Nations ran the numbers.",
+   "note": "On-screen text: \"10.3 BILLION — peak, mid-2080s.\" Detective points. Camera: slow push-in."
+  },
+  {
+   "id": "S12",
+   "size": "wide",
+   "key": 198,
+   "len": 396,
+   "first": 4371,
+   "line": "The future isn't more crowded.",
+   "note": "The chess players. One of them is 94 and sharp as a tack, beating a teenager.\nCamera: hold still."
+  },
+  {
+   "id": "S13",
+   "size": "wide",
+   "key": 328,
+   "len": 657,
+   "first": 4767,
+   "line": "In 2019, you could expect 72.6 years.",
+   "note": "On-screen text: \"72.6 years (2019) → 77.1 (2050) → ~82 (2100).\" Camera: slow push-in."
+  },
+  {
+   "id": "S14",
+   "size": "wide",
+   "key": 198,
+   "len": 396,
+   "first": 5424,
+   "line": "In 2018, for the first time in all of history, people over 65 outnumbered children under five.",
+   "note": "Jake sits on a bench next to an old woman. She smiles. He smiles back, nervous.\nCamera: hold still."
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 249,
+   "len": 498,
+   "first": 5820,
+   "line": "Fewer babies, longer lives, a world that got older instead of bigger.",
+   "note": "Detective faces camera. Timer: 20:12:44. Camera: slow push-in. RE-HOOK: promise a visual payoff."
+  },
+  {
+   "id": "S16",
+   "size": "wide",
+   "key": 210,
+   "len": 420,
+   "first": 6318,
+   "line": "At night, the city glows.",
+   "note": "Night. The city glows, but there are no smokestacks. No power lines humming. Camera: slow pull back."
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 351,
+   "len": 702,
+   "first": 6738,
+   "line": "This is what powers it.",
+   "note": "CUTAWAY: a power station cut open like a cake. Inside, a glowing ring. The outside of the\nbuilding stays in frame. Camera: slow dive in toward the ring."
+  },
+  {
+   "id": "S18",
+   "size": "wide",
+   "key": 300,
+   "len": 600,
+   "first": 7440,
+   "line": "The machine that proves it is called ITER.",
+   "note": "On-screen text: \"500 MW out from 50 MW in.\" The plasma pulses. Camera: hold still."
+  },
+  {
+   "id": "S19",
+   "size": "wide",
+   "key": 277,
+   "len": 555,
+   "first": 8040,
+   "line": "It doesn't make electricity itself — that's the next reactor's job.",
+   "note": "Jake stares up at the reactor. The Detective stands beside him. Camera: slow push-in."
+  },
+  {
+   "id": "S20",
+   "size": "wide",
+   "key": 316,
+   "len": 633,
+   "first": 8595,
+   "line": "The first proof came in December 2022.",
+   "note": "On-screen text: \"Ignition: December 2022.\" A lab, a flash of light. Camera: hold still."
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 265,
+   "len": 531,
+   "first": 9228,
+   "line": "The experts say real fusion power plants show up in the 2040s or 2050s.",
+   "note": "Detective faces camera. Timer: 17:58:31. Camera: slow push-in. RE-HOOK: promise the Mars payoff."
+  },
+  {
+   "id": "S22",
+   "size": "wide",
+   "key": 153,
+   "len": 306,
+   "first": 9759,
+   "line": "Look up.",
+   "note": "Night sky. A red dot moves steadily across the stars. Jake points up. Camera: slow push-in."
+  },
+  {
+   "id": "S23",
+   "size": "wide",
+   "key": 243,
+   "len": 486,
+   "first": 10065,
+   "line": "Humans landed on Mars in the late 2030s.",
+   "note": "Mars, red dust, a small habitat dome. Four figures in suits walk between buildings.\nCamera: slow pull back."
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "key": 363,
+   "len": 726,
+   "first": 10551,
+   "line": "A Mars trip takes two and a half to three years.",
+   "note": "On-screen text: \"2.5–3 YEARS. 7–9 months each way.\" A ship coasts between two planets.\nCamera: gentle pan."
+  },
+  {
+   "id": "S25",
+   "size": "wide",
+   "key": 316,
+   "len": 633,
+   "first": 11277,
+   "line": "They don't just visit.",
+   "note": "Inside the habitat. A crew eats dinner together. A window shows red dust outside.\nCamera: hold still."
+  },
+  {
+   "id": "S26",
+   "size": "wide",
+   "key": 165,
+   "len": 330,
+   "first": 11910,
+   "line": "You spent your whole life thinking Mars was a poster on a classroom wall.",
+   "note": "Jake looks up at the sky again. The red dot is gone. Camera: slow push-in on Jake."
+  },
+  {
+   "id": "S27",
+   "size": "wide",
+   "key": 294,
+   "len": 588,
+   "first": 12240,
+   "line": "The sea moved.",
+   "note": "Detective faces camera, magnifying glass up. Timer: 14:20:05. Camera: slow push-in.\nRE-HOOK: promise the decision chapter + a character."
+  },
+  {
+   "id": "S28",
+   "size": "wide",
+   "key": 159,
+   "len": 318,
+   "first": 12828,
+   "line": "Mara runs the noodle stall.",
+   "note": "A food stall. Steam. A woman about Jake's age serves noodles. She looks up and smiles like\nshe's seen him before. Camera: slow push-in. DIALOGUE BEAT begins — two-shot, Jake and Mara."
+  },
+  {
+   "id": "S29",
+   "size": "wide",
+   "key": 58,
+   "len": 117,
+   "first": 13146,
+   "line": "\"Is this real?",
+   "note": "DIALOGUE BEAT: two-shot. Only the speaker moves; the listener reacts small (one nod).\nJake speaks first, facing Mara."
+  },
+  {
+   "id": "S30",
+   "size": "wide",
+   "key": 67,
+   "len": 135,
+   "first": 13263,
+   "line": "\"You're the third one this month.",
+   "note": "DIALOGUE BEAT: two-shot. Mara speaks; Jake goes still and listens, one small nod."
+  },
+  {
+   "id": "S31",
+   "size": "wide",
+   "key": 58,
+   "len": 117,
+   "first": 13398,
+   "line": "\"The third one?",
+   "note": "DIALOGUE BEAT: two-shot. Jake speaks; Mara listens, head tilt."
+  },
+  {
+   "id": "S32",
+   "size": "wide",
+   "key": 58,
+   "len": 117,
+   "first": 13515,
+   "line": "\"No.",
+   "note": "DIALOGUE BEAT: two-shot. Mara speaks; Jake listens."
+  },
+  {
+   "id": "S33",
+   "size": "wide",
+   "key": 58,
+   "len": 117,
+   "first": 13632,
+   "line": "\"Do they stay?",
+   "note": "DIALOGUE BEAT: two-shot. Jake speaks, quieter. Mara listens, still."
+  },
+  {
+   "id": "S34",
+   "size": "wide",
+   "key": 204,
+   "len": 408,
+   "first": 13749,
+   "line": "\"One did.",
+   "note": "DIALOGUE BEAT: two-shot. Mara speaks, looks toward the stall next door. Jake listens."
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "key": 261,
+   "len": 522,
+   "first": 14157,
+   "line": "Mara's wrist buzzes.",
+   "note": "PHONE TEXT SCENE: notification banner pops at the top — \"Lena — tell him the sea took the\nold pier, 21:47.\" Cut to the full phone screen in Mara's hand: grey bubbles left, blue replies\nright, bubbles appearing one at a time. Caption at the bottom narrates. Camera: hold still."
+  },
+  {
+   "id": "S36",
+   "size": "wide",
+   "key": 442,
+   "len": 885,
+   "first": 14679,
+   "line": "They've seen this before.",
+   "note": "Mara looks at Jake. The timer ticks: 02:14:33. Camera: slow push-in."
+  },
+  {
+   "id": "S37",
+   "size": "wide",
+   "key": 220,
+   "len": 441,
+   "first": 15564,
+   "line": "Two hours left.",
+   "note": "Detective faces camera. Timer: 01:58:02. Camera: hold still. RE-HOOK: the deadline is the hook."
+  },
+  {
+   "id": "S38",
+   "size": "wide",
+   "key": 159,
+   "len": 318,
+   "first": 16005,
+   "line": "Midnight is nine minutes away.",
+   "note": "The white room again. The machine hums. The timer counts down: 00:09:41. Camera: slow push-in."
+  },
+  {
+   "id": "S39",
+   "size": "wide",
+   "key": 289,
+   "len": 579,
+   "first": 16323,
+   "line": "Time travel has a catch nobody mentions.",
+   "note": "Jake stands in front of the machine. Mara waits by the door. Camera: slow push-in on Jake."
+  },
+  {
+   "id": "S40",
+   "size": "wide",
+   "key": 147,
+   "len": 294,
+   "first": 16902,
+   "line": "The timer hits zero.",
+   "note": "The timer hits 00:00:00. The machine flashes. The room goes white. Camera: hold still, then cut to black."
+  },
+  {
+   "id": "S41",
+   "size": "wide",
+   "key": 165,
+   "len": 330,
+   "first": 17196,
+   "line": "You open your eyes.",
+   "note": "Jake's bedroom, 2026. Morning light. His phone says November 14, 2026. Camera: slow pull back."
+  },
+  {
+   "id": "S42",
+   "size": "wide",
+   "key": 594,
+   "len": 1188,
+   "first": 17526,
+   "line": "You went to sleep in 2026.",
+   "note": "Jake sits up, smiling. The Detective is in the corner, scratching his head under the\nquestion mark. Camera: slow push-in."
+  },
+  {
+   "id": "S43",
+   "size": "wide",
+   "key": 60,
+   "len": 120,
+   "first": 18714,
+   "line": "",
+   "note": ""
+  }
+ ],
+ "fx": [],
+ "audio": {}
+}

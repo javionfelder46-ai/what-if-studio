@@ -1,0 +1,700 @@
+{
+ "slug": "zenn-010",
+ "title": "THE SHADOW THAT WARNS YOU",
+ "fps": 30,
+ "total": 17159,
+ "segments": [
+  {
+   "a": 0,
+   "b": 287,
+   "line": "Your shadow knows something you don't. It's been trying to warn you all day. And by the time you finally listen to it — it will have already saved your life.",
+   "shot": "S1",
+   "t0": 0,
+   "t1": 287
+  },
+  {
+   "a": 287,
+   "b": 855,
+   "line": "Right now it's just walking with you. Calm. Patient. Like the quietest roommate you've ever had — never speaks, never complains, just follows you everywhere. But your shadow is not just a dark shape on the ground. It's the part of your brain that notices danger before you do.",
+   "shot": "S2",
+   "t0": 0,
+   "t1": 568
+  },
+  {
+   "a": 855,
+   "b": 1178,
+   "line": "And here's the question: when was the last time you had a bad feeling about something — and ignored it? Keep that answer in your head. Because today, you're going to find out what that feeling actually is.",
+   "shot": "S3",
+   "t0": 0,
+   "t1": 323
+  },
+  {
+   "a": 1178,
+   "b": 1431,
+   "line": "It started this morning. Same street, same walk, same coffee. Nothing was wrong. But your shadow was already on edge — and you had no idea why.",
+   "shot": "S4",
+   "t0": 0,
+   "t1": 253
+  },
+  {
+   "a": 1431,
+   "b": 1807,
+   "line": "See that alley? You walked right past it. Didn't even look. But your shadow did. It stopped. It leaned back. It did not want to go near that dark opening. And you didn't notice a thing.",
+   "shot": "S5",
+   "t0": 0,
+   "t1": 376
+  },
+  {
+   "a": 1807,
+   "b": 2277,
+   "line": "Your shadow was scared. You weren't. That's the weird part. Your heart didn't even speed up. Your hands didn't sweat. Nothing. And yet something in you flinched — before your conscious mind had even seen a thing.",
+   "shot": "S6",
+   "t0": 0,
+   "t1": 470
+  },
+  {
+   "a": 2277,
+   "b": 2561,
+   "line": "Your shadow saw him first. A figure, standing still, watching the street. You never looked. Your shadow did — and it tried to tell you.",
+   "shot": "S7",
+   "t0": 0,
+   "t1": 284
+  },
+  {
+   "a": 2561,
+   "b": 2927,
+   "line": "Now, before you think this is magic — it's not. It's your brain. There's a small almond-shaped part of it called the amygdala, and it is always on watch. Even when you're not.",
+   "shot": "S8",
+   "t0": 0,
+   "t1": 366
+  },
+  {
+   "a": 2927,
+   "b": 3374,
+   "line": "Scientists once flashed an angry face at people for less than forty milliseconds — so fast nobody could consciously see it. Their amygdala still fired. Your brain reacts to danger before you know there's danger. That's not a superpower. That's the wiring.",
+   "shot": "S9",
+   "t0": 0,
+   "t1": 447
+  },
+  {
+   "a": 3374,
+   "b": 3599,
+   "line": "Later that day, your shadow tried again. You were looking at your phone. It was pointing at a yellow sign. You walked right past it.",
+   "shot": "S10",
+   "t0": 0,
+   "t1": 225
+  },
+  {
+   "a": 3599,
+   "b": 3872,
+   "line": "It wasn't being subtle. Arm out. Finger up. A glowing exclamation mark over its head. It was doing everything except grabbing you by the collar.",
+   "shot": "S11",
+   "t0": 0,
+   "t1": 273
+  },
+  {
+   "a": 3872,
+   "b": 4442,
+   "line": "And then you slipped. Arms everywhere. One leg in the air. The most graceful fall anyone has ever had in a hallway. Somewhere, a security camera has the footage. You will never watch it. Your shadow will never let you forget it. It had warned you. You were busy.",
+   "shot": "S12",
+   "t0": 0,
+   "t1": 570
+  },
+  {
+   "a": 4442,
+   "b": 4735,
+   "line": "You sat there on the floor and thought: how did it know? You hadn't seen the sign. You hadn't seen the wet patch. But something in you had — and it tried to warn you.",
+   "shot": "S13",
+   "t0": 0,
+   "t1": 293
+  },
+  {
+   "a": 4735,
+   "b": 5182,
+   "line": "Here's the thing. In a famous experiment, scientists had people play a card game with four decks. Two decks paid off. Two decks robbed you blind. And healthy players started picking the good decks — before they could explain why.",
+   "shot": "S14",
+   "t0": 0,
+   "t1": 447
+  },
+  {
+   "a": 5182,
+   "b": 5683,
+   "line": "Their skin gave them away. Before they picked a bad deck, their hands sweated — a tiny stress response. Their body knew the deck was dangerous before their brain could say so. The researchers called it a somatic marker. A gut feeling with a receipt.",
+   "shot": "S15",
+   "t0": 0,
+   "t1": 501
+  },
+  {
+   "a": 5683,
+   "b": 6053,
+   "line": "That was your shadow in the hallway. A body signal. A warning from the part of you that keeps score — the part that remembers every wet floor you've ever slipped on, even when you don't.",
+   "shot": "S16",
+   "t0": 0,
+   "t1": 370
+  },
+  {
+   "a": 6053,
+   "b": 6418,
+   "line": "Then came the meeting. A stranger. A big smile. A deal that sounded too good to be true. Your shadow took one look at his face — and pointed.",
+   "shot": "S17",
+   "t0": 0,
+   "t1": 365
+  },
+  {
+   "a": 6418,
+   "b": 6690,
+   "line": "His smile said trust me. His eyes said something else. You didn't catch it. Your shadow did. It was pointing at his face like a fire alarm.",
+   "shot": "S18",
+   "t0": 0,
+   "t1": 272
+  },
+  {
+   "a": 6690,
+   "b": 7216,
+   "line": "And you shook his hand anyway. Of course you did. He was charming. He was confident. He had a great handshake — firm, warm, practiced, the kind of handshake that has closed a hundred bad deals. Your gut said no. Your brain said stop being paranoid.",
+   "shot": "S19",
+   "t0": 0,
+   "t1": 526
+  },
+  {
+   "a": 7216,
+   "b": 7533,
+   "line": "Two hours later, the deal fell apart. The money was gone. The stranger was gone. And the only thing left was that feeling you'd ignored — the one that had been right all along.",
+   "shot": "S20",
+   "t0": 0,
+   "t1": 317
+  },
+  {
+   "a": 7533,
+   "b": 7960,
+   "line": "Have you ever met someone who smiled at you — and something in your gut said don't trust them? There's a reason. In one study, people judged strangers from just a few seconds of video — and they were right far more often than chance.",
+   "shot": "S21",
+   "t0": 0,
+   "t1": 427
+  },
+  {
+   "a": 7960,
+   "b": 8372,
+   "line": "The researchers pooled thirty-eight studies and found the same thing: a few seconds of watching someone predicts how things will go with them. Your brain reads faces, posture, tone — all of it — in seconds. It just doesn't send you a memo.",
+   "shot": "S22",
+   "t0": 0,
+   "t1": 412
+  },
+  {
+   "a": 8372,
+   "b": 8820,
+   "line": "Your shadow isn't magic. It's pattern recognition. It's every face you've ever met, every smile that didn't match the eyes, every deal that went wrong — all filed away, all ready to warn you in under five seconds. You just have to listen.",
+   "shot": "S23",
+   "t0": 0,
+   "t1": 448
+  },
+  {
+   "a": 8820,
+   "b": 9133,
+   "line": "By evening, your shadow wasn't whispering anymore. It was waving. Both arms. Like someone trying to flag down a taxi. And you were walking straight past it.",
+   "shot": "S24",
+   "t0": 0,
+   "t1": 313
+  },
+  {
+   "a": 9133,
+   "b": 9741,
+   "line": "It wasn't warning you about danger this time. It was pointing at the door. The exit. The way out. And you were about to walk right past the thing you actually needed. It had never waved before. Not once. All day it had pointed, flinched, pulled — but it had never waved.",
+   "shot": "S25",
+   "t0": 0,
+   "t1": 608
+  },
+  {
+   "a": 9741,
+   "b": 10053,
+   "line": "And this is where it gets interesting. Your shadow doesn't only warn you about what's wrong. It also points you toward what's right. You just have to stop long enough to look.",
+   "shot": "S26",
+   "t0": 0,
+   "t1": 312
+  },
+  {
+   "a": 10053,
+   "b": 10435,
+   "line": "Here's the secret: your shadow listens to your body. Your heart. Your breathing. The tightness in your chest. Scientists call it interoception — your brain's sense of what's happening inside you.",
+   "shot": "S27",
+   "t0": 0,
+   "t1": 382
+  },
+  {
+   "a": 10435,
+   "b": 10807,
+   "line": "In one study, people who could track their own heartbeat accurately made better gut decisions. Their bodies were sending signals — and they could actually hear them. The better you hear your body, the better your instincts work.",
+   "shot": "S28",
+   "t0": 0,
+   "t1": 372
+  },
+  {
+   "a": 10807,
+   "b": 11089,
+   "line": "So you went through the door. Not because you had a plan. Because something in you said: this way. And for the first time all day, you listened — and it felt like relief.",
+   "shot": "S29",
+   "t0": 0,
+   "t1": 282
+  },
+  {
+   "a": 11089,
+   "b": 11432,
+   "line": "Then came the crosswalk. You stepped off the curb. Your shadow didn't. It planted its feet and pulled back — hard — like a dog on a leash that just saw something you didn't.",
+   "shot": "S30",
+   "t0": 0,
+   "t1": 343
+  },
+  {
+   "a": 11432,
+   "b": 11861,
+   "line": "You felt it. A tug. A hesitation. Your body stopped before your brain caught up. Your brain was still writing the email about crossing the street. Your body had already hit send on stopping. And for a half-second, you were annoyed at your own feet.",
+   "shot": "S31",
+   "t0": 0,
+   "t1": 429
+  },
+  {
+   "a": 11861,
+   "b": 12207,
+   "line": "Your shadow wasn't being difficult. It was being fast. Faster than thought. Faster than you. Because while your conscious mind was still deciding whether to cross, the rest of your brain had already done the math.",
+   "shot": "S32",
+   "t0": 0,
+   "t1": 346
+  },
+  {
+   "a": 12207,
+   "b": 12808,
+   "line": "Here's the wild part. In four experiments, scientists found that for complicated decisions, people who stopped thinking about it — who let their unconscious mind work — actually chose better than people who reasoned it out. Thinking harder made them worse.",
+   "shot": "S33",
+   "t0": 0,
+   "t1": 601
+  },
+  {
+   "a": 12808,
+   "b": 13115,
+   "line": "And then the car came. It didn't slow down. It didn't see you. And your shadow yanked you back by the arm — just as the headlights swept across the spot where you'd been standing.",
+   "shot": "S34",
+   "t0": 0,
+   "t1": 307
+  },
+  {
+   "a": 13115,
+   "b": 13440,
+   "line": "You stood there on the curb, heart hammering, and the only thought in your head was: I didn't see it. I didn't hear it. I didn't know. But something in me did.",
+   "shot": "S35",
+   "t0": 0,
+   "t1": 325
+  },
+  {
+   "a": 13440,
+   "b": 13930,
+   "line": "That something was your shadow. Not a ghost. Not magic. Your unconscious mind — the part that watches, remembers, and reacts in milliseconds. The part that never stops working, even when you're not paying attention.",
+   "shot": "S36",
+   "t0": 0,
+   "t1": 490
+  },
+  {
+   "a": 13930,
+   "b": 14408,
+   "line": "That night, you sat down in a dark room and finally asked the question: what are you? And your shadow — your gut, your instinct, whatever you want to call it — just nodded. Like it had been waiting all day for you to ask.",
+   "shot": "S37",
+   "t0": 0,
+   "t1": 478
+  },
+  {
+   "a": 14408,
+   "b": 15044,
+   "line": "Here's what it is. Your gut isn't a mystery. It's a shortcut. Psychologists call them heuristics — fast rules your brain builds from experience. A heuristic is your brain saying: I've seen this movie before, I know how it ends, let's skip to the good part. They ignore most of the information and jump straight to the answer. And most of the time, they're right.",
+   "shot": "S38",
+   "t0": 0,
+   "t1": 636
+  },
+  {
+   "a": 15044,
+   "b": 15474,
+   "line": "Think about it. Every warning today was a pattern. A dark alley you'd seen before. A wet floor you'd slipped on before. A smile that didn't match the eyes. Your brain had seen all of it before — and it filed it away for the exact moment you'd need it.",
+   "shot": "S39",
+   "t0": 0,
+   "t1": 430
+  },
+  {
+   "a": 15474,
+   "b": 15889,
+   "line": "So what do you do with a shadow like that? You practice listening. You pause before the big decision. You sleep on it. You let the quiet part of your mind do its work. Because the research is clear: your unconscious is not your enemy. It's your oldest ally.",
+   "shot": "S40",
+   "t0": 0,
+   "t1": 415
+  },
+  {
+   "a": 15889,
+   "b": 16219,
+   "line": "And the next time your shadow pulls back — the next time your gut says wait — don't argue with it. Listen. It's not trying to scare you. It's trying to save you. It's been doing it all along.",
+   "shot": "S41",
+   "t0": 0,
+   "t1": 330
+  },
+  {
+   "a": 16219,
+   "b": 17039,
+   "line": "So here's the last question: what's your shadow trying to tell you right now? Think about it. That uneasy feeling you've been ignoring — the one about the job, the person, the decision. Maybe it's not anxiety. Maybe it's information. What would you do if you knew your gut was right more often than your brain? And if the answer is nothing — if your shadow is quiet right now — good. That means it's calm. That means you're safe. For now.",
+   "shot": "S42",
+   "t0": 0,
+   "t1": 820
+  },
+  {
+   "a": 17039,
+   "b": 17159,
+   "line": "",
+   "shot": "S43",
+   "t0": 0,
+   "t1": 120
+  }
+ ],
+ "shots": [
+  {
+   "first": 0,
+   "id": "S1",
+   "key": 143,
+   "len": 287,
+   "line": "Your shadow knows something you don't. It's been trying to warn you all day. And by the time you finally listen to it — it will have already saved your life.",
+   "size": ""
+  },
+  {
+   "first": 287,
+   "id": "S2",
+   "key": 284,
+   "len": 568,
+   "line": "Right now it's just walking with you. Calm. Patient. Like the quietest roommate you've ever had — never speaks, never complains, just follows you everywhere. But your shadow is not just a dark shape on the ground. It's the part of your brain that notices danger before you do.",
+   "size": ""
+  },
+  {
+   "first": 855,
+   "id": "S3",
+   "key": 161,
+   "len": 323,
+   "line": "And here's the question: when was the last time you had a bad feeling about something — and ignored it? Keep that answer in your head. Because today, you're going to find out what that feeling actually is.",
+   "size": ""
+  },
+  {
+   "first": 1178,
+   "id": "S4",
+   "key": 126,
+   "len": 253,
+   "line": "It started this morning. Same street, same walk, same coffee. Nothing was wrong. But your shadow was already on edge — and you had no idea why.",
+   "size": ""
+  },
+  {
+   "first": 1431,
+   "id": "S5",
+   "key": 188,
+   "len": 376,
+   "line": "See that alley? You walked right past it. Didn't even look. But your shadow did. It stopped. It leaned back. It did not want to go near that dark opening. And you didn't notice a thing.",
+   "size": ""
+  },
+  {
+   "first": 1807,
+   "id": "S6",
+   "key": 235,
+   "len": 470,
+   "line": "Your shadow was scared. You weren't. That's the weird part. Your heart didn't even speed up. Your hands didn't sweat. Nothing. And yet something in you flinched — before your conscious mind had even seen a thing.",
+   "size": ""
+  },
+  {
+   "first": 2277,
+   "id": "S7",
+   "key": 142,
+   "len": 284,
+   "line": "Your shadow saw him first. A figure, standing still, watching the street. You never looked. Your shadow did — and it tried to tell you.",
+   "size": ""
+  },
+  {
+   "first": 2561,
+   "id": "S8",
+   "key": 183,
+   "len": 366,
+   "line": "Now, before you think this is magic — it's not. It's your brain. There's a small almond-shaped part of it called the amygdala, and it is always on watch. Even when you're not.",
+   "size": ""
+  },
+  {
+   "first": 2927,
+   "id": "S9",
+   "key": 223,
+   "len": 447,
+   "line": "Scientists once flashed an angry face at people for less than forty milliseconds — so fast nobody could consciously see it. Their amygdala still fired. Your brain reacts to danger before you know there's danger. That's not a superpower. That's the wiring.",
+   "size": ""
+  },
+  {
+   "first": 3374,
+   "id": "S10",
+   "key": 112,
+   "len": 225,
+   "line": "Later that day, your shadow tried again. You were looking at your phone. It was pointing at a yellow sign. You walked right past it.",
+   "size": ""
+  },
+  {
+   "first": 3599,
+   "id": "S11",
+   "key": 136,
+   "len": 273,
+   "line": "It wasn't being subtle. Arm out. Finger up. A glowing exclamation mark over its head. It was doing everything except grabbing you by the collar.",
+   "size": ""
+  },
+  {
+   "first": 3872,
+   "id": "S12",
+   "key": 285,
+   "len": 570,
+   "line": "And then you slipped. Arms everywhere. One leg in the air. The most graceful fall anyone has ever had in a hallway. Somewhere, a security camera has the footage. You will never watch it. Your shadow will never let you forget it. It had warned you. You were busy.",
+   "size": ""
+  },
+  {
+   "first": 4442,
+   "id": "S13",
+   "key": 146,
+   "len": 293,
+   "line": "You sat there on the floor and thought: how did it know? You hadn't seen the sign. You hadn't seen the wet patch. But something in you had — and it tried to warn you.",
+   "size": ""
+  },
+  {
+   "first": 4735,
+   "id": "S14",
+   "key": 223,
+   "len": 447,
+   "line": "Here's the thing. In a famous experiment, scientists had people play a card game with four decks. Two decks paid off. Two decks robbed you blind. And healthy players started picking the good decks — before they could explain why.",
+   "size": ""
+  },
+  {
+   "first": 5182,
+   "id": "S15",
+   "key": 250,
+   "len": 501,
+   "line": "Their skin gave them away. Before they picked a bad deck, their hands sweated — a tiny stress response. Their body knew the deck was dangerous before their brain could say so. The researchers called it a somatic marker. A gut feeling with a receipt.",
+   "size": ""
+  },
+  {
+   "first": 5683,
+   "id": "S16",
+   "key": 185,
+   "len": 370,
+   "line": "That was your shadow in the hallway. A body signal. A warning from the part of you that keeps score — the part that remembers every wet floor you've ever slipped on, even when you don't.",
+   "size": ""
+  },
+  {
+   "first": 6053,
+   "id": "S17",
+   "key": 182,
+   "len": 365,
+   "line": "Then came the meeting. A stranger. A big smile. A deal that sounded too good to be true. Your shadow took one look at his face — and pointed.",
+   "size": ""
+  },
+  {
+   "first": 6418,
+   "id": "S18",
+   "key": 136,
+   "len": 272,
+   "line": "His smile said trust me. His eyes said something else. You didn't catch it. Your shadow did. It was pointing at his face like a fire alarm.",
+   "size": ""
+  },
+  {
+   "first": 6690,
+   "id": "S19",
+   "key": 263,
+   "len": 526,
+   "line": "And you shook his hand anyway. Of course you did. He was charming. He was confident. He had a great handshake — firm, warm, practiced, the kind of handshake that has closed a hundred bad deals. Your gut said no. Your brain said stop being paranoid.",
+   "size": ""
+  },
+  {
+   "first": 7216,
+   "id": "S20",
+   "key": 158,
+   "len": 317,
+   "line": "Two hours later, the deal fell apart. The money was gone. The stranger was gone. And the only thing left was that feeling you'd ignored — the one that had been right all along.",
+   "size": ""
+  },
+  {
+   "first": 7533,
+   "id": "S21",
+   "key": 213,
+   "len": 427,
+   "line": "Have you ever met someone who smiled at you — and something in your gut said don't trust them? There's a reason. In one study, people judged strangers from just a few seconds of video — and they were right far more often than chance.",
+   "size": ""
+  },
+  {
+   "first": 7960,
+   "id": "S22",
+   "key": 206,
+   "len": 412,
+   "line": "The researchers pooled thirty-eight studies and found the same thing: a few seconds of watching someone predicts how things will go with them. Your brain reads faces, posture, tone — all of it — in seconds. It just doesn't send you a memo.",
+   "size": ""
+  },
+  {
+   "first": 8372,
+   "id": "S23",
+   "key": 224,
+   "len": 448,
+   "line": "Your shadow isn't magic. It's pattern recognition. It's every face you've ever met, every smile that didn't match the eyes, every deal that went wrong — all filed away, all ready to warn you in under five seconds. You just have to listen.",
+   "size": ""
+  },
+  {
+   "first": 8820,
+   "id": "S24",
+   "key": 156,
+   "len": 313,
+   "line": "By evening, your shadow wasn't whispering anymore. It was waving. Both arms. Like someone trying to flag down a taxi. And you were walking straight past it.",
+   "size": ""
+  },
+  {
+   "first": 9133,
+   "id": "S25",
+   "key": 304,
+   "len": 608,
+   "line": "It wasn't warning you about danger this time. It was pointing at the door. The exit. The way out. And you were about to walk right past the thing you actually needed. It had never waved before. Not once. All day it had pointed, flinched, pulled — but it had never waved.",
+   "size": ""
+  },
+  {
+   "first": 9741,
+   "id": "S26",
+   "key": 156,
+   "len": 312,
+   "line": "And this is where it gets interesting. Your shadow doesn't only warn you about what's wrong. It also points you toward what's right. You just have to stop long enough to look.",
+   "size": ""
+  },
+  {
+   "first": 10053,
+   "id": "S27",
+   "key": 191,
+   "len": 382,
+   "line": "Here's the secret: your shadow listens to your body. Your heart. Your breathing. The tightness in your chest. Scientists call it interoception — your brain's sense of what's happening inside you.",
+   "size": ""
+  },
+  {
+   "first": 10435,
+   "id": "S28",
+   "key": 186,
+   "len": 372,
+   "line": "In one study, people who could track their own heartbeat accurately made better gut decisions. Their bodies were sending signals — and they could actually hear them. The better you hear your body, the better your instincts work.",
+   "size": ""
+  },
+  {
+   "first": 10807,
+   "id": "S29",
+   "key": 141,
+   "len": 282,
+   "line": "So you went through the door. Not because you had a plan. Because something in you said: this way. And for the first time all day, you listened — and it felt like relief.",
+   "size": ""
+  },
+  {
+   "first": 11089,
+   "id": "S30",
+   "key": 171,
+   "len": 343,
+   "line": "Then came the crosswalk. You stepped off the curb. Your shadow didn't. It planted its feet and pulled back — hard — like a dog on a leash that just saw something you didn't.",
+   "size": ""
+  },
+  {
+   "first": 11432,
+   "id": "S31",
+   "key": 214,
+   "len": 429,
+   "line": "You felt it. A tug. A hesitation. Your body stopped before your brain caught up. Your brain was still writing the email about crossing the street. Your body had already hit send on stopping. And for a half-second, you were annoyed at your own feet.",
+   "size": ""
+  },
+  {
+   "first": 11861,
+   "id": "S32",
+   "key": 173,
+   "len": 346,
+   "line": "Your shadow wasn't being difficult. It was being fast. Faster than thought. Faster than you. Because while your conscious mind was still deciding whether to cross, the rest of your brain had already done the math.",
+   "size": ""
+  },
+  {
+   "first": 12207,
+   "id": "S33",
+   "key": 300,
+   "len": 601,
+   "line": "Here's the wild part. In four experiments, scientists found that for complicated decisions, people who stopped thinking about it — who let their unconscious mind work — actually chose better than people who reasoned it out. Thinking harder made them worse.",
+   "size": ""
+  },
+  {
+   "first": 12808,
+   "id": "S34",
+   "key": 153,
+   "len": 307,
+   "line": "And then the car came. It didn't slow down. It didn't see you. And your shadow yanked you back by the arm — just as the headlights swept across the spot where you'd been standing.",
+   "size": ""
+  },
+  {
+   "first": 13115,
+   "id": "S35",
+   "key": 162,
+   "len": 325,
+   "line": "You stood there on the curb, heart hammering, and the only thought in your head was: I didn't see it. I didn't hear it. I didn't know. But something in me did.",
+   "size": ""
+  },
+  {
+   "first": 13440,
+   "id": "S36",
+   "key": 245,
+   "len": 490,
+   "line": "That something was your shadow. Not a ghost. Not magic. Your unconscious mind — the part that watches, remembers, and reacts in milliseconds. The part that never stops working, even when you're not paying attention.",
+   "size": ""
+  },
+  {
+   "first": 13930,
+   "id": "S37",
+   "key": 239,
+   "len": 478,
+   "line": "That night, you sat down in a dark room and finally asked the question: what are you? And your shadow — your gut, your instinct, whatever you want to call it — just nodded. Like it had been waiting all day for you to ask.",
+   "size": ""
+  },
+  {
+   "first": 14408,
+   "id": "S38",
+   "key": 318,
+   "len": 636,
+   "line": "Here's what it is. Your gut isn't a mystery. It's a shortcut. Psychologists call them heuristics — fast rules your brain builds from experience. A heuristic is your brain saying: I've seen this movie before, I know how it ends, let's skip to the good part. They ignore most of the information and jump straight to the answer. And most of the time, they're right.",
+   "size": ""
+  },
+  {
+   "first": 15044,
+   "id": "S39",
+   "key": 215,
+   "len": 430,
+   "line": "Think about it. Every warning today was a pattern. A dark alley you'd seen before. A wet floor you'd slipped on before. A smile that didn't match the eyes. Your brain had seen all of it before — and it filed it away for the exact moment you'd need it.",
+   "size": ""
+  },
+  {
+   "first": 15474,
+   "id": "S40",
+   "key": 207,
+   "len": 415,
+   "line": "So what do you do with a shadow like that? You practice listening. You pause before the big decision. You sleep on it. You let the quiet part of your mind do its work. Because the research is clear: your unconscious is not your enemy. It's your oldest ally.",
+   "size": ""
+  },
+  {
+   "first": 15889,
+   "id": "S41",
+   "key": 165,
+   "len": 330,
+   "line": "And the next time your shadow pulls back — the next time your gut says wait — don't argue with it. Listen. It's not trying to scare you. It's trying to save you. It's been doing it all along.",
+   "size": ""
+  },
+  {
+   "first": 16219,
+   "id": "S42",
+   "key": 410,
+   "len": 820,
+   "line": "So here's the last question: what's your shadow trying to tell you right now? Think about it. That uneasy feeling you've been ignoring — the one about the job, the person, the decision. Maybe it's not anxiety. Maybe it's information. What would you do if you knew your gut was right more often than your brain? And if the answer is nothing — if your shadow is quiet right now — good. That means it's calm. That means you're safe. For now.",
+   "size": ""
+  },
+  {
+   "first": 17039,
+   "id": "S43",
+   "key": 60,
+   "len": 120,
+   "line": "",
+   "size": ""
+  }
+ ],
+ "fx": [],
+ "audio": {}
+}

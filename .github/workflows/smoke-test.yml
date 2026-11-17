@@ -1,0 +1,37 @@
+name: Smoke test render (10 frames)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Check ffmpeg
+        run: which ffmpeg && ffmpeg -version | head -1
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Render frames 0-9
+        run: node scripts/render_frames_png.mjs zenn-006 0 9 out/zenn-006/smoke.mp4
+        env:
+          TMPDIR: ${{ runner.temp }}/bundle-tmp
+
+      - name: Verify smoke mp4
+        run: |
+          ffprobe -v error -show_entries format=duration -show_entries stream=width,height,r_frame_rate,nb_frames -of default=noprint_wrappers=1 out/zenn-006/smoke.mp4
+          ls -lh out/zenn-006/smoke.mp4
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zenn006-smoke
+          path: out/zenn-006/smoke.mp4
+          retention-days: 2

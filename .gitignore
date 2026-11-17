@@ -1,0 +1,17 @@
+node_modules/
+out/
+.tmp/
+.tmp2/
+__pycache__/
+*.log
+# Large audio/stills for other episodes — not needed to render zenn-006 frames
+# (VO/music are muxed locally afterwards). Excluded to keep the push small.
+public/zenn-002/
+public/zenn-003/
+public/zenn-002-stills/
+public/never-slept/
+public/rewind/
+public/copy-paste/
+public/lipsync_bear_sample_audio.mp3
+public/phone-voiceover.mp3
+library/

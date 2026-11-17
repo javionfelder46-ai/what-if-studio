@@ -1,0 +1,716 @@
+{
+ "audio": {},
+ "fps": 30,
+ "fx": [],
+ "segments": [
+  {
+   "a": 0,
+   "b": 420,
+   "line": "What if everyone you met today had their real age written on their face? Not the age they look. Not the age they tell you. The real one \u2014 in big glowing numbers, right above their head.",
+   "shot": "S1",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 420,
+   "b": 840,
+   "line": "You wake up and that's exactly what happened. You don't know why. You don't know how. But every person you see today is wearing their true age like a name tag they can't take off.",
+   "shot": "S2",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 840,
+   "b": 1260,
+   "line": "Here's the question to hold onto: if everyone you met today had their real age written on their face \u2014 who would surprise you most? Keep that answer. By the end of this, it might change.",
+   "shot": "S3",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 1260,
+   "b": 1680,
+   "line": "It starts in the bathroom mirror. You splash water on your face, look up \u2014 and there it is. Your number. Glowing pink, floating above your head. Your real age. And for one stupid second, you check if it's right.",
+   "shot": "S4",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 1680,
+   "b": 2100,
+   "line": "It is. Of course it is. And that's the first weird thing: you already knew your age. But seeing it written out, in lights, on your own face \u2014 it feels different. Like it belongs to everyone looking at you.",
+   "shot": "S5",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 2100,
+   "b": 2520,
+   "line": "You walk out the door and the whole street is lit up. The jogger: thirty-one. The woman with the dog: fifty-eight. The kid on the skateboard: fourteen. Every person, tagged and labeled, priced like items on a shelf.",
+   "shot": "S6",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 2520,
+   "b": 2940,
+   "line": "And your brain does this before you notice: it reads the number and decides. Thirty-one \u2014 fit, fast, in their prime. Fifty-eight \u2014 slowing down. Fourteen \u2014 a kid, ignore him. You didn't choose any of that. Your brain just did it.",
+   "shot": "S7",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 2940,
+   "b": 3360,
+   "line": "Scientists call this the first-impression machine. Your brain looks at a face and, before you can form a thought, it has decided if that person is warm, strong, smart, or dangerous. From the face alone \u2014 no words, no history.",
+   "shot": "S8",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 3360,
+   "b": 3780,
+   "line": "So the numbers aren't the weird part. The weird part is your brain was already doing this every day \u2014 it just didn't have the numbers to prove it. Today it does. And today you'll see what that actually costs people.",
+   "shot": "S9",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 3780,
+   "b": 4200,
+   "line": "You get to work and there's Maya \u2014 not her real name, but let's call her Maya. Everyone thinks she's twenty-five. The energy, the laugh. Two years here, and people still call her \"the new girl.\"",
+   "shot": "S10",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 4200,
+   "b": 4620,
+   "line": "But her number says forty-seven. Forty-seven. She's older than your boss. Older than the guy who runs the whole department. And nobody knows it. Nobody except you.",
+   "shot": "S11",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 4620,
+   "b": 5040,
+   "line": "Maya has the best idea in the room \u2014 she's done the research, she's ready. And the manager nods, smiles, and gives the project to someone else. Someone older-looking. Someone whose number matches the job.",
+   "shot": "S12",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 5040,
+   "b": 5460,
+   "line": "This is the babyface effect, and it's real science. Younger-looking faces get read as warmer, softer, less powerful, less competent. Not because they are. Because their face looks young. The face talks, and the person behind it never gets a word in.",
+   "shot": "S13",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 5460,
+   "b": 5880,
+   "line": "Maya doesn't get angry. She's used to it. She just fixes the other person's mistakes later, like she's done for two years. The number above her head isn't the problem. Everyone was already reading a number off her face \u2014 just the wrong one.",
+   "shot": "S14",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 5880,
+   "b": 6300,
+   "line": "Here's a question: have you ever been talked down to by someone who assumed you were younger than you are? Someone who explained your own job to you? That's the babyface tax. And Maya has been paying it for twenty-two years.",
+   "shot": "S15",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 6300,
+   "b": 6720,
+   "line": "And the wildest part? This happens even when the face is moving, even when the person is talking. A babyish face creates an impression of weakness that survives a whole conversation. The face wins. The words lose. Every time.",
+   "shot": "S16",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 6720,
+   "b": 7140,
+   "line": "After work you stop for coffee, and that's when you meet the teenager. Hoodie, headphones, skateboard tucked under one arm. His number says sixty-three. Sixty-three years old. In a teenager's body, with a teenager's face.",
+   "shot": "S17",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 7140,
+   "b": 7560,
+   "line": "And nobody treats him like a teenager. The barista asks his opinion on the news. The old guy at the next table nods at him like they're equals. Sixty-three means wise, experienced, worth listening to. The hoodie doesn't matter anymore.",
+   "shot": "S18",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 7560,
+   "b": 7980,
+   "line": "Then the old man walks in. White hair, slow steps, a cane. His number says nineteen. And the whole room shifts. People stand up straighter. They listen when he talks. A nineteen-year-old, getting the respect of a lifetime \u2014 because of a number.",
+   "shot": "S19",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 7980,
+   "b": 8400,
+   "line": "Now here's the science, and it's embarrassing: we're terrible at guessing ages. In one study, people were worst at older faces, and they guessed smiling faces as younger than they were. Your brain takes one look and rounds to whatever feels right.",
+   "shot": "S20",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 8400,
+   "b": 8820,
+   "line": "So the teenager gets the respect of a sixty-three-year-old, and the old man gets the respect of a lifetime \u2014 nineteen means fresh, sharp, going places. The numbers are doing the thinking for everyone. Nobody's looking at the person anymore. Just the tag.",
+   "shot": "S21",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 8820,
+   "b": 9240,
+   "line": "You catch yourself doing it too. You looked at the teenager and thought \"kid.\" You looked at the old man and thought \"grandpa.\" Your brain did it in half a second. The numbers didn't create the judgment. They just made it visible.",
+   "shot": "S22",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 9240,
+   "b": 9660,
+   "line": "That's the part nobody wants to admit. We all do this. Every day. We meet a face, we guess a number, and the number decides everything that happens next. The only difference today is you can finally see the number you're guessing.",
+   "shot": "S23",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 9660,
+   "b": 10080,
+   "line": "But here's where it gets expensive. Tomorrow morning, someone walks into a job interview \u2014 and the hiring manager sees their number before they say a single word.",
+   "shot": "S24",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 10080,
+   "b": 10500,
+   "line": "Picture it. Two candidates. Same resume. Same skills. Same experience. One number says twenty-nine. The other says fifty-four. Who gets the callback? You already know the answer. And so does every hiring manager on earth.",
+   "shot": "S25",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 10500,
+   "b": 10920,
+   "line": "This isn't a guess \u2014 it's measured. Researchers sent out more than six thousand fake resumes with only the age changed. Callbacks started falling for workers in their early forties. By retirement, they were barely there. Same resume. Different number. Different life.",
+   "shot": "S26",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 10920,
+   "b": 11340,
+   "line": "And the worst part? The hiring manager isn't a villain. They're not thinking \"I hate old people.\" They're just reading the number. Fifty-four feels risky, expensive, slow. The number does the discriminating so the person doesn't have to.",
+   "shot": "S27",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 11340,
+   "b": 11760,
+   "line": "Now flip it. Would you hire the forty-seven-year-old who looks twenty-five \u2014 or the twenty-five-year-old who looks forty-seven? Same question, same trap. Now you can see the number, and the number is all you can see.",
+   "shot": "S28",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 11760,
+   "b": 12180,
+   "line": "This is the part that changes everything: the number isn't just a label. It's a price tag. It decides who gets hired, who gets heard, who gets ignored. It's been doing that your whole life. You just couldn't see it until today.",
+   "shot": "S29",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 12180,
+   "b": 12600,
+   "line": "So the question isn't whether the numbers are fair. The question is: what were you doing before you could see them? You were still reading faces. Still guessing. Still deciding. The only difference is now you know you're doing it.",
+   "shot": "S30",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 12600,
+   "b": 13020,
+   "line": "You get home and stand in front of the mirror. Your number is there. Glowing pink. And now you're thinking about it differently. Not what other people see. What YOU see.",
+   "shot": "S31",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 13020,
+   "b": 13440,
+   "line": "Because here's the thing nobody tells you: the number doesn't just change how other people treat you. It changes how you treat yourself. You see your number, and suddenly you're acting your age.",
+   "shot": "S32",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 13440,
+   "b": 13860,
+   "line": "One study followed six hundred and sixty people over fifty for twenty years. Positive thinkers about aging lived seven and a half years longer than negative ones. Seven and a half years. Just from what they believed about a number.",
+   "shot": "S33",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 13860,
+   "b": 14280,
+   "line": "Read that again. Not diet. Not exercise. Not money. What they believed about getting old. The number in your head changed the number of years in your life. The label got inside and started running the show.",
+   "shot": "S34",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 14280,
+   "b": 14700,
+   "line": "So when you look in the mirror and see your number, ask yourself: what do you believe about it? Whatever you believe, your body is listening. Your brain is listening. And it's been listening your whole life.",
+   "shot": "S35",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 14700,
+   "b": 15120,
+   "line": "The coworker who's forty-seven but looks twenty-five? She's been told she's young and inexperienced for so long that she started believing it \u2014 and acting like it. The number on her face became the number in her head. And that became her life.",
+   "shot": "S36",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 15120,
+   "b": 15540,
+   "line": "That's the real trap. It's not that other people judge you by your number. It's that you start judging yourself by it. And once you do, the number stops being something you wear \u2014 and becomes something you are.",
+   "shot": "S37",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 15540,
+   "b": 15960,
+   "line": "And then the numbers start to fade. You're walking home, the sun's going down, and one by one, the pink glow above everyone's head just... goes out. Like someone turned off the lights.",
+   "shot": "S38",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 15960,
+   "b": 16380,
+   "line": "The jogger is just a jogger again. The woman with the dog is just a woman with a dog. Maya is just Maya. The teenager is just a kid on a skateboard. And you realize something that should have been obvious all along.",
+   "shot": "S39",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 16380,
+   "b": 16800,
+   "line": "You were already doing this. You met a face, you guessed a number, and the number decided everything. The glowing numbers didn't invent the judgment. They made it visible. Now they're gone \u2014 and the judgment is still there. You just can't see it anymore.",
+   "shot": "S40",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 16800,
+   "b": 17220,
+   "line": "Here's the last piece of science, and it's the strangest one. In a study of eighteen hundred twins over seventy, how old you LOOK predicted how long you live. The twin who looked older died first. Your face isn't a label. It's a forecast.",
+   "shot": "S41",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 17220,
+   "b": 17640,
+   "line": "So the number was never about the number. It was about what it does to us \u2014 who gets heard, who gets hired, who gets a chance. We don't need glowing numbers to do it. We've been doing it all along, with nothing but our eyes.",
+   "shot": "S42",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 17640,
+   "b": 18060,
+   "line": "So here's my question. What's your number \u2014 and would you want anyone to see it? They already do. They've been reading it off your face your whole life. Now you know. And knowing is the only way to stop it.",
+   "shot": "S43",
+   "t0": 0,
+   "t1": 420
+  },
+  {
+   "a": 18060,
+   "b": 18180,
+   "line": "",
+   "shot": "S44",
+   "t0": 0,
+   "t1": 120
+  }
+ ],
+ "shots": [
+  {
+   "first": 0,
+   "id": "S1",
+   "key": 210,
+   "len": 420,
+   "line": "What if everyone you met today had their real age written on their face? Not the age they look. Not the age they tell you. The real one \u2014 in big glowing numbers, right above their head.",
+   "size": ""
+  },
+  {
+   "first": 420,
+   "id": "S2",
+   "key": 210,
+   "len": 420,
+   "line": "You wake up and that's exactly what happened. You don't know why. You don't know how. But every person you see today is wearing their true age like a name tag they can't take off.",
+   "size": ""
+  },
+  {
+   "first": 840,
+   "id": "S3",
+   "key": 210,
+   "len": 420,
+   "line": "Here's the question to hold onto: if everyone you met today had their real age written on their face \u2014 who would surprise you most? Keep that answer. By the end of this, it might change.",
+   "size": ""
+  },
+  {
+   "first": 1260,
+   "id": "S4",
+   "key": 210,
+   "len": 420,
+   "line": "It starts in the bathroom mirror. You splash water on your face, look up \u2014 and there it is. Your number. Glowing pink, floating above your head. Your real age. And for one stupid second, you check if it's right.",
+   "size": ""
+  },
+  {
+   "first": 1680,
+   "id": "S5",
+   "key": 210,
+   "len": 420,
+   "line": "It is. Of course it is. And that's the first weird thing: you already knew your age. But seeing it written out, in lights, on your own face \u2014 it feels different. Like it belongs to everyone looking at you.",
+   "size": ""
+  },
+  {
+   "first": 2100,
+   "id": "S6",
+   "key": 210,
+   "len": 420,
+   "line": "You walk out the door and the whole street is lit up. The jogger: thirty-one. The woman with the dog: fifty-eight. The kid on the skateboard: fourteen. Every person, tagged and labeled, priced like items on a shelf.",
+   "size": ""
+  },
+  {
+   "first": 2520,
+   "id": "S7",
+   "key": 210,
+   "len": 420,
+   "line": "And your brain does this before you notice: it reads the number and decides. Thirty-one \u2014 fit, fast, in their prime. Fifty-eight \u2014 slowing down. Fourteen \u2014 a kid, ignore him. You didn't choose any of that. Your brain just did it.",
+   "size": ""
+  },
+  {
+   "first": 2940,
+   "id": "S8",
+   "key": 210,
+   "len": 420,
+   "line": "Scientists call this the first-impression machine. Your brain looks at a face and, before you can form a thought, it has decided if that person is warm, strong, smart, or dangerous. From the face alone \u2014 no words, no history.",
+   "size": ""
+  },
+  {
+   "first": 3360,
+   "id": "S9",
+   "key": 210,
+   "len": 420,
+   "line": "So the numbers aren't the weird part. The weird part is your brain was already doing this every day \u2014 it just didn't have the numbers to prove it. Today it does. And today you'll see what that actually costs people.",
+   "size": ""
+  },
+  {
+   "first": 3780,
+   "id": "S10",
+   "key": 210,
+   "len": 420,
+   "line": "You get to work and there's Maya \u2014 not her real name, but let's call her Maya. Everyone thinks she's twenty-five. The energy, the laugh. Two years here, and people still call her \"the new girl.\"",
+   "size": ""
+  },
+  {
+   "first": 4200,
+   "id": "S11",
+   "key": 210,
+   "len": 420,
+   "line": "But her number says forty-seven. Forty-seven. She's older than your boss. Older than the guy who runs the whole department. And nobody knows it. Nobody except you.",
+   "size": ""
+  },
+  {
+   "first": 4620,
+   "id": "S12",
+   "key": 210,
+   "len": 420,
+   "line": "Maya has the best idea in the room \u2014 she's done the research, she's ready. And the manager nods, smiles, and gives the project to someone else. Someone older-looking. Someone whose number matches the job.",
+   "size": ""
+  },
+  {
+   "first": 5040,
+   "id": "S13",
+   "key": 210,
+   "len": 420,
+   "line": "This is the babyface effect, and it's real science. Younger-looking faces get read as warmer, softer, less powerful, less competent. Not because they are. Because their face looks young. The face talks, and the person behind it never gets a word in.",
+   "size": ""
+  },
+  {
+   "first": 5460,
+   "id": "S14",
+   "key": 210,
+   "len": 420,
+   "line": "Maya doesn't get angry. She's used to it. She just fixes the other person's mistakes later, like she's done for two years. The number above her head isn't the problem. Everyone was already reading a number off her face \u2014 just the wrong one.",
+   "size": ""
+  },
+  {
+   "first": 5880,
+   "id": "S15",
+   "key": 210,
+   "len": 420,
+   "line": "Here's a question: have you ever been talked down to by someone who assumed you were younger than you are? Someone who explained your own job to you? That's the babyface tax. And Maya has been paying it for twenty-two years.",
+   "size": ""
+  },
+  {
+   "first": 6300,
+   "id": "S16",
+   "key": 210,
+   "len": 420,
+   "line": "And the wildest part? This happens even when the face is moving, even when the person is talking. A babyish face creates an impression of weakness that survives a whole conversation. The face wins. The words lose. Every time.",
+   "size": ""
+  },
+  {
+   "first": 6720,
+   "id": "S17",
+   "key": 210,
+   "len": 420,
+   "line": "After work you stop for coffee, and that's when you meet the teenager. Hoodie, headphones, skateboard tucked under one arm. His number says sixty-three. Sixty-three years old. In a teenager's body, with a teenager's face.",
+   "size": ""
+  },
+  {
+   "first": 7140,
+   "id": "S18",
+   "key": 210,
+   "len": 420,
+   "line": "And nobody treats him like a teenager. The barista asks his opinion on the news. The old guy at the next table nods at him like they're equals. Sixty-three means wise, experienced, worth listening to. The hoodie doesn't matter anymore.",
+   "size": ""
+  },
+  {
+   "first": 7560,
+   "id": "S19",
+   "key": 210,
+   "len": 420,
+   "line": "Then the old man walks in. White hair, slow steps, a cane. His number says nineteen. And the whole room shifts. People stand up straighter. They listen when he talks. A nineteen-year-old, getting the respect of a lifetime \u2014 because of a number.",
+   "size": ""
+  },
+  {
+   "first": 7980,
+   "id": "S20",
+   "key": 210,
+   "len": 420,
+   "line": "Now here's the science, and it's embarrassing: we're terrible at guessing ages. In one study, people were worst at older faces, and they guessed smiling faces as younger than they were. Your brain takes one look and rounds to whatever feels right.",
+   "size": ""
+  },
+  {
+   "first": 8400,
+   "id": "S21",
+   "key": 210,
+   "len": 420,
+   "line": "So the teenager gets the respect of a sixty-three-year-old, and the old man gets the respect of a lifetime \u2014 nineteen means fresh, sharp, going places. The numbers are doing the thinking for everyone. Nobody's looking at the person anymore. Just the tag.",
+   "size": ""
+  },
+  {
+   "first": 8820,
+   "id": "S22",
+   "key": 210,
+   "len": 420,
+   "line": "You catch yourself doing it too. You looked at the teenager and thought \"kid.\" You looked at the old man and thought \"grandpa.\" Your brain did it in half a second. The numbers didn't create the judgment. They just made it visible.",
+   "size": ""
+  },
+  {
+   "first": 9240,
+   "id": "S23",
+   "key": 210,
+   "len": 420,
+   "line": "That's the part nobody wants to admit. We all do this. Every day. We meet a face, we guess a number, and the number decides everything that happens next. The only difference today is you can finally see the number you're guessing.",
+   "size": ""
+  },
+  {
+   "first": 9660,
+   "id": "S24",
+   "key": 210,
+   "len": 420,
+   "line": "But here's where it gets expensive. Tomorrow morning, someone walks into a job interview \u2014 and the hiring manager sees their number before they say a single word.",
+   "size": ""
+  },
+  {
+   "first": 10080,
+   "id": "S25",
+   "key": 210,
+   "len": 420,
+   "line": "Picture it. Two candidates. Same resume. Same skills. Same experience. One number says twenty-nine. The other says fifty-four. Who gets the callback? You already know the answer. And so does every hiring manager on earth.",
+   "size": ""
+  },
+  {
+   "first": 10500,
+   "id": "S26",
+   "key": 210,
+   "len": 420,
+   "line": "This isn't a guess \u2014 it's measured. Researchers sent out more than six thousand fake resumes with only the age changed. Callbacks started falling for workers in their early forties. By retirement, they were barely there. Same resume. Different number. Different life.",
+   "size": ""
+  },
+  {
+   "first": 10920,
+   "id": "S27",
+   "key": 210,
+   "len": 420,
+   "line": "And the worst part? The hiring manager isn't a villain. They're not thinking \"I hate old people.\" They're just reading the number. Fifty-four feels risky, expensive, slow. The number does the discriminating so the person doesn't have to.",
+   "size": ""
+  },
+  {
+   "first": 11340,
+   "id": "S28",
+   "key": 210,
+   "len": 420,
+   "line": "Now flip it. Would you hire the forty-seven-year-old who looks twenty-five \u2014 or the twenty-five-year-old who looks forty-seven? Same question, same trap. Now you can see the number, and the number is all you can see.",
+   "size": ""
+  },
+  {
+   "first": 11760,
+   "id": "S29",
+   "key": 210,
+   "len": 420,
+   "line": "This is the part that changes everything: the number isn't just a label. It's a price tag. It decides who gets hired, who gets heard, who gets ignored. It's been doing that your whole life. You just couldn't see it until today.",
+   "size": ""
+  },
+  {
+   "first": 12180,
+   "id": "S30",
+   "key": 210,
+   "len": 420,
+   "line": "So the question isn't whether the numbers are fair. The question is: what were you doing before you could see them? You were still reading faces. Still guessing. Still deciding. The only difference is now you know you're doing it.",
+   "size": ""
+  },
+  {
+   "first": 12600,
+   "id": "S31",
+   "key": 210,
+   "len": 420,
+   "line": "You get home and stand in front of the mirror. Your number is there. Glowing pink. And now you're thinking about it differently. Not what other people see. What YOU see.",
+   "size": ""
+  },
+  {
+   "first": 13020,
+   "id": "S32",
+   "key": 210,
+   "len": 420,
+   "line": "Because here's the thing nobody tells you: the number doesn't just change how other people treat you. It changes how you treat yourself. You see your number, and suddenly you're acting your age.",
+   "size": ""
+  },
+  {
+   "first": 13440,
+   "id": "S33",
+   "key": 210,
+   "len": 420,
+   "line": "One study followed six hundred and sixty people over fifty for twenty years. Positive thinkers about aging lived seven and a half years longer than negative ones. Seven and a half years. Just from what they believed about a number.",
+   "size": ""
+  },
+  {
+   "first": 13860,
+   "id": "S34",
+   "key": 210,
+   "len": 420,
+   "line": "Read that again. Not diet. Not exercise. Not money. What they believed about getting old. The number in your head changed the number of years in your life. The label got inside and started running the show.",
+   "size": ""
+  },
+  {
+   "first": 14280,
+   "id": "S35",
+   "key": 210,
+   "len": 420,
+   "line": "So when you look in the mirror and see your number, ask yourself: what do you believe about it? Whatever you believe, your body is listening. Your brain is listening. And it's been listening your whole life.",
+   "size": ""
+  },
+  {
+   "first": 14700,
+   "id": "S36",
+   "key": 210,
+   "len": 420,
+   "line": "The coworker who's forty-seven but looks twenty-five? She's been told she's young and inexperienced for so long that she started believing it \u2014 and acting like it. The number on her face became the number in her head. And that became her life.",
+   "size": ""
+  },
+  {
+   "first": 15120,
+   "id": "S37",
+   "key": 210,
+   "len": 420,
+   "line": "That's the real trap. It's not that other people judge you by your number. It's that you start judging yourself by it. And once you do, the number stops being something you wear \u2014 and becomes something you are.",
+   "size": ""
+  },
+  {
+   "first": 15540,
+   "id": "S38",
+   "key": 210,
+   "len": 420,
+   "line": "And then the numbers start to fade. You're walking home, the sun's going down, and one by one, the pink glow above everyone's head just... goes out. Like someone turned off the lights.",
+   "size": ""
+  },
+  {
+   "first": 15960,
+   "id": "S39",
+   "key": 210,
+   "len": 420,
+   "line": "The jogger is just a jogger again. The woman with the dog is just a woman with a dog. Maya is just Maya. The teenager is just a kid on a skateboard. And you realize something that should have been obvious all along.",
+   "size": ""
+  },
+  {
+   "first": 16380,
+   "id": "S40",
+   "key": 210,
+   "len": 420,
+   "line": "You were already doing this. You met a face, you guessed a number, and the number decided everything. The glowing numbers didn't invent the judgment. They made it visible. Now they're gone \u2014 and the judgment is still there. You just can't see it anymore.",
+   "size": ""
+  },
+  {
+   "first": 16800,
+   "id": "S41",
+   "key": 210,
+   "len": 420,
+   "line": "Here's the last piece of science, and it's the strangest one. In a study of eighteen hundred twins over seventy, how old you LOOK predicted how long you live. The twin who looked older died first. Your face isn't a label. It's a forecast.",
+   "size": ""
+  },
+  {
+   "first": 17220,
+   "id": "S42",
+   "key": 210,
+   "len": 420,
+   "line": "So the number was never about the number. It was about what it does to us \u2014 who gets heard, who gets hired, who gets a chance. We don't need glowing numbers to do it. We've been doing it all along, with nothing but our eyes.",
+   "size": ""
+  },
+  {
+   "first": 17640,
+   "id": "S43",
+   "key": 210,
+   "len": 420,
+   "line": "So here's my question. What's your number \u2014 and would you want anyone to see it? They already do. They've been reading it off your face your whole life. Now you know. And knowing is the only way to stop it.",
+   "size": ""
+  },
+  {
+   "first": 18060,
+   "id": "S44",
+   "key": 60,
+   "len": 120,
+   "line": "",
+   "size": ""
+  }
+ ],
+ "slug": "zenn-011",
+ "title": "WHAT IF EVERYONE'S TRUE AGE WAS WRITTEN ON THEIR FACE?",
+ "total": 18180
+}

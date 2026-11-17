@@ -1,0 +1,383 @@
+{
+ "slug": "phone-knows-when-you-die",
+ "title": "WHAT IF YOUR PHONE KNEW THE EXACT DAY YOU'D DIE?",
+ "fps": 30,
+ "total": 14393,
+ "segments": [
+  {
+   "shot": "S01",
+   "a": 0,
+   "b": 284,
+   "t0": 0,
+   "t1": 284,
+   "line": "You wake up at 3:12 in the morning, and your phone is already awake."
+  },
+  {
+   "shot": "S02",
+   "a": 284,
+   "b": 521,
+   "t0": 0,
+   "t1": 237,
+   "line": "There's an app on it you've never seen before. No name you recognize. No icon you chose."
+  },
+  {
+   "shot": "S03",
+   "a": 521,
+   "b": 798,
+   "t0": 0,
+   "t1": 277,
+   "line": "47 days. 6 hours. 14 minutes."
+  },
+  {
+   "shot": "S04",
+   "a": 798,
+   "b": 1040,
+   "t0": 0,
+   "t1": 242,
+   "line": "So here's the question, before anything else. If your phone showed you the day \u2014 would you look?"
+  },
+  {
+   "shot": "S05",
+   "a": 1040,
+   "b": 1585,
+   "t0": 0,
+   "t1": 545,
+   "line": "You sit up in bed and pick up the phone. It's warm, like it's been working all night."
+  },
+  {
+   "shot": "S06",
+   "a": 1585,
+   "b": 1826,
+   "t0": 0,
+   "t1": 241,
+   "line": "You hold your finger on the icon to delete it. The little X appears. You tap it."
+  },
+  {
+   "shot": "S07",
+   "a": 1826,
+   "b": 2053,
+   "t0": 0,
+   "t1": 227,
+   "line": "The app disappears. You blink. And then it's back, in the exact same spot, like you never touched it."
+  },
+  {
+   "shot": "S08",
+   "a": 2053,
+   "b": 2673,
+   "t0": 0,
+   "t1": 620,
+   "line": "Every app has a name, a size, a date it was installed. This one has nothing."
+  },
+  {
+   "shot": "S09",
+   "a": 2673,
+   "b": 3308,
+   "t0": 0,
+   "t1": 635,
+   "line": "Five seconds later the lock screen lights up by itself, and the number is there, glowing through the dark: 47 days, 6 hours, 9 minutes."
+  },
+  {
+   "shot": "S10",
+   "a": 3308,
+   "b": 3924,
+   "t0": 0,
+   "t1": 616,
+   "line": "Your heart beats about a hundred thousand times a day, and your phone has been quietly keeping score the whole time."
+  },
+  {
+   "shot": "S11",
+   "a": 3924,
+   "b": 4725,
+   "t0": 0,
+   "t1": 801,
+   "line": "Tuesday, 4:02 in the afternoon: rain. It rained at 4:02."
+  },
+  {
+   "shot": "S12",
+   "a": 4725,
+   "b": 5185,
+   "t0": 0,
+   "t1": 460,
+   "line": "Then you find the one from last year. A name you know. A date."
+  },
+  {
+   "shot": "S13",
+   "a": 5185,
+   "b": 6261,
+   "t0": 0,
+   "t1": 1076,
+   "line": "In 2023, researchers in Denmark built an AI that reads the story of a person's life"
+  },
+  {
+   "shot": "S14",
+   "a": 6261,
+   "b": 7553,
+   "t0": 0,
+   "t1": 1292,
+   "line": "You call your mom, and you don't keep it short this time. You tell her you love her, and she goes quiet on the other end, because you never say it first."
+  },
+  {
+   "shot": "S15",
+   "a": 7553,
+   "b": 7926,
+   "t0": 0,
+   "t1": 373,
+   "line": "You walk home the long way, past the park, and you notice the sky for the first time in months."
+  },
+  {
+   "shot": "S16",
+   "a": 7926,
+   "b": 8314,
+   "t0": 0,
+   "t1": 388,
+   "line": "You eat dinner at the table instead of on the couch, and you actually taste it."
+  },
+  {
+   "shot": "S17",
+   "a": 8314,
+   "b": 8933,
+   "t0": 0,
+   "t1": 619,
+   "line": "That night you check the number, expecting it to be smaller. 46 days. It is."
+  },
+  {
+   "shot": "S18",
+   "a": 8933,
+   "b": 9259,
+   "t0": 0,
+   "t1": 326,
+   "line": "And on Thursday, it moves. Not down. Up. 47 days becomes 52."
+  },
+  {
+   "shot": "S19",
+   "a": 9259,
+   "b": 9875,
+   "t0": 0,
+   "t1": 616,
+   "line": "The next morning it's 41. The morning after that, 58."
+  },
+  {
+   "shot": "S20",
+   "a": 9875,
+   "b": 11329,
+   "t0": 0,
+   "t1": 1454,
+   "line": "So here's the question, and it's the only one that matters: if every choice moved your date, what would you change first?"
+  },
+  {
+   "shot": "S21",
+   "a": 11329,
+   "b": 12349,
+   "t0": 0,
+   "t1": 1020,
+   "line": "A rooftop, at sunset. You take the stairs, all the way up, and you step out into purple light and wind."
+  },
+  {
+   "shot": "S22",
+   "a": 12349,
+   "b": 14081,
+   "t0": 0,
+   "t1": 1732,
+   "line": "You hold your breath. The number hits zero. And nothing happens."
+  },
+  {
+   "shot": "S23",
+   "a": 14081,
+   "b": 14393,
+   "t0": 0,
+   "t1": 312,
+   "line": "If you knew you had 47 days, what's the first thing you'd do tomorrow?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S01",
+   "first": 0,
+   "len": 284,
+   "key": 142,
+   "line": "You wake up at 3:12 in the morning, and your phone is already awake.",
+   "size": ""
+  },
+  {
+   "id": "S02",
+   "first": 284,
+   "len": 237,
+   "key": 118,
+   "line": "There's an app on it you've never seen before. No name you recognize. No icon you chose.",
+   "size": ""
+  },
+  {
+   "id": "S03",
+   "first": 521,
+   "len": 277,
+   "key": 138,
+   "line": "47 days. 6 hours. 14 minutes.",
+   "size": ""
+  },
+  {
+   "id": "S04",
+   "first": 798,
+   "len": 242,
+   "key": 121,
+   "line": "So here's the question, before anything else. If your phone showed you the day \u2014 would you look?",
+   "size": ""
+  },
+  {
+   "id": "S05",
+   "first": 1040,
+   "len": 545,
+   "key": 272,
+   "line": "You sit up in bed and pick up the phone. It's warm, like it's been working all night.",
+   "size": ""
+  },
+  {
+   "id": "S06",
+   "first": 1585,
+   "len": 241,
+   "key": 120,
+   "line": "You hold your finger on the icon to delete it. The little X appears. You tap it.",
+   "size": ""
+  },
+  {
+   "id": "S07",
+   "first": 1826,
+   "len": 227,
+   "key": 113,
+   "line": "The app disappears. You blink. And then it's back, in the exact same spot, like you never touched it.",
+   "size": ""
+  },
+  {
+   "id": "S08",
+   "first": 2053,
+   "len": 620,
+   "key": 310,
+   "line": "Every app has a name, a size, a date it was installed. This one has nothing.",
+   "size": ""
+  },
+  {
+   "id": "S09",
+   "first": 2673,
+   "len": 635,
+   "key": 317,
+   "line": "Five seconds later the lock screen lights up by itself, and the number is there, glowing through the dark: 47 days, 6 hours, 9 minutes.",
+   "size": ""
+  },
+  {
+   "id": "S10",
+   "first": 3308,
+   "len": 616,
+   "key": 308,
+   "line": "Your heart beats about a hundred thousand times a day, and your phone has been quietly keeping score the whole time.",
+   "size": ""
+  },
+  {
+   "id": "S11",
+   "first": 3924,
+   "len": 801,
+   "key": 400,
+   "line": "Tuesday, 4:02 in the afternoon: rain. It rained at 4:02.",
+   "size": ""
+  },
+  {
+   "id": "S12",
+   "first": 4725,
+   "len": 460,
+   "key": 230,
+   "line": "Then you find the one from last year. A name you know. A date.",
+   "size": ""
+  },
+  {
+   "id": "S13",
+   "first": 5185,
+   "len": 1076,
+   "key": 538,
+   "line": "In 2023, researchers in Denmark built an AI that reads the story of a person's life",
+   "size": ""
+  },
+  {
+   "id": "S14",
+   "first": 6261,
+   "len": 1292,
+   "key": 646,
+   "line": "You call your mom, and you don't keep it short this time. You tell her you love her, and she goes quiet on the other end, because you never say it first.",
+   "size": ""
+  },
+  {
+   "id": "S15",
+   "first": 7553,
+   "len": 373,
+   "key": 186,
+   "line": "You walk home the long way, past the park, and you notice the sky for the first time in months.",
+   "size": ""
+  },
+  {
+   "id": "S16",
+   "first": 7926,
+   "len": 388,
+   "key": 194,
+   "line": "You eat dinner at the table instead of on the couch, and you actually taste it.",
+   "size": ""
+  },
+  {
+   "id": "S17",
+   "first": 8314,
+   "len": 619,
+   "key": 309,
+   "line": "That night you check the number, expecting it to be smaller. 46 days. It is.",
+   "size": ""
+  },
+  {
+   "id": "S18",
+   "first": 8933,
+   "len": 326,
+   "key": 163,
+   "line": "And on Thursday, it moves. Not down. Up. 47 days becomes 52.",
+   "size": ""
+  },
+  {
+   "id": "S19",
+   "first": 9259,
+   "len": 616,
+   "key": 308,
+   "line": "The next morning it's 41. The morning after that, 58.",
+   "size": ""
+  },
+  {
+   "id": "S20",
+   "first": 9875,
+   "len": 1454,
+   "key": 727,
+   "line": "So here's the question, and it's the only one that matters: if every choice moved your date, what would you change first?",
+   "size": ""
+  },
+  {
+   "id": "S21",
+   "first": 11329,
+   "len": 1020,
+   "key": 510,
+   "line": "A rooftop, at sunset. You take the stairs, all the way up, and you step out into purple light and wind.",
+   "size": ""
+  },
+  {
+   "id": "S22",
+   "first": 12349,
+   "len": 1732,
+   "key": 866,
+   "line": "You hold your breath. The number hits zero. And nothing happens.",
+   "size": ""
+  },
+  {
+   "id": "S23",
+   "first": 14081,
+   "len": 312,
+   "key": 156,
+   "line": "If you knew you had 47 days, what's the first thing you'd do tomorrow?",
+   "size": ""
+  }
+ ],
+ "fx": [],
+ "audio": {
+  "voice": "phone-voiceover.mp3",
+  "voiceVol": 1
+ }
+}

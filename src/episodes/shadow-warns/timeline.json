@@ -1,0 +1,156 @@
+{
+ "slug": "shadow-warns",
+ "title": "The Shadow That Warns You",
+ "fps": 30,
+ "total": 2700,
+ "segments": [
+  {
+   "a": 0,
+   "b": 300,
+   "line": "He walked home at sunset, and his shadow stretched long and calm behind him.",
+   "shot": "S1",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 300,
+   "b": 600,
+   "line": "That night, his shadow flinched back from the dark alley. He didn't even notice.",
+   "shot": "S2",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 600,
+   "b": 900,
+   "line": "His shadow pointed at the wet floor sign. He walked right past it \u2014 and slipped.",
+   "shot": "S3",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 900,
+   "b": 1200,
+   "line": "His shadow pointed at the stranger's smiling face. He believed him anyway.",
+   "shot": "S4",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 1200,
+   "b": 1500,
+   "line": "His shadow waved for his attention as he walked toward the exit.",
+   "shot": "S5",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 1500,
+   "b": 1800,
+   "line": "At the crosswalk, his shadow planted its feet and pulled back hard.",
+   "shot": "S6",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 1800,
+   "b": 2100,
+   "line": "The shadow yanked him back by the arm \u2014 just as a car rushed past.",
+   "shot": "S7",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 2100,
+   "b": 2400,
+   "line": "In the dark, he finally understood. His shadow gave a small nod.",
+   "shot": "S8",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 2400,
+   "b": 2700,
+   "line": "And at sunset, they walked together into the orange light \u2014 side by side.",
+   "shot": "S9",
+   "t0": 0,
+   "t1": 300
+  }
+ ],
+ "shots": [
+  {
+   "first": 0,
+   "id": "S1",
+   "key": 150,
+   "len": 300,
+   "line": "He walked home at sunset, and his shadow stretched long and calm behind him.",
+   "size": ""
+  },
+  {
+   "first": 300,
+   "id": "S2",
+   "key": 150,
+   "len": 300,
+   "line": "That night, his shadow flinched back from the dark alley. He didn't even notice.",
+   "size": ""
+  },
+  {
+   "first": 600,
+   "id": "S3",
+   "key": 150,
+   "len": 300,
+   "line": "His shadow pointed at the wet floor sign. He walked right past it \u2014 and slipped.",
+   "size": ""
+  },
+  {
+   "first": 900,
+   "id": "S4",
+   "key": 150,
+   "len": 300,
+   "line": "His shadow pointed at the stranger's smiling face. He believed him anyway.",
+   "size": ""
+  },
+  {
+   "first": 1200,
+   "id": "S5",
+   "key": 150,
+   "len": 300,
+   "line": "His shadow waved for his attention as he walked toward the exit.",
+   "size": ""
+  },
+  {
+   "first": 1500,
+   "id": "S6",
+   "key": 150,
+   "len": 300,
+   "line": "At the crosswalk, his shadow planted its feet and pulled back hard.",
+   "size": ""
+  },
+  {
+   "first": 1800,
+   "id": "S7",
+   "key": 150,
+   "len": 300,
+   "line": "The shadow yanked him back by the arm \u2014 just as a car rushed past.",
+   "size": ""
+  },
+  {
+   "first": 2100,
+   "id": "S8",
+   "key": 150,
+   "len": 300,
+   "line": "In the dark, he finally understood. His shadow gave a small nod.",
+   "size": ""
+  },
+  {
+   "first": 2400,
+   "id": "S9",
+   "key": 150,
+   "len": 300,
+   "line": "And at sunset, they walked together into the orange light \u2014 side by side.",
+   "size": ""
+  }
+ ],
+ "fx": [],
+ "audio": {}
+}

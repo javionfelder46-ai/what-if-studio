@@ -1,0 +1,675 @@
+{
+  "slug": "zenn-002-stills",
+  "title": "The Spotlight Effect \u2014 stills cut",
+  "fps": 30,
+  "total": 18590,
+  "segments": [
+    {
+      "shot": "S1",
+      "a": 0,
+      "b": 462,
+      "t0": 0,
+      "t1": 462,
+      "line": "Cold open \u2014 Jake in his bedroom, 19:47"
+    },
+    {
+      "shot": "S2",
+      "a": 462,
+      "b": 924,
+      "t0": 0,
+      "t1": 462,
+      "line": "Jake, worried, in his bedroom"
+    },
+    {
+      "shot": "S3",
+      "a": 924,
+      "b": 1386,
+      "t0": 0,
+      "t1": 462,
+      "line": "The party \u2014 Jake at the center, friends around"
+    },
+    {
+      "shot": "S4",
+      "a": 1386,
+      "b": 1848,
+      "t0": 0,
+      "t1": 462,
+      "line": "Jake close-up, shocked"
+    },
+    {
+      "shot": "S5",
+      "a": 1848,
+      "b": 2310,
+      "t0": 0,
+      "t1": 462,
+      "line": "Title \u2014 Why does it feel like everyone is watching you?"
+    },
+    {
+      "shot": "S6",
+      "a": 2310,
+      "b": 2772,
+      "t0": 0,
+      "t1": 462,
+      "line": "Jake imagines the whole party watching him"
+    },
+    {
+      "shot": "S7",
+      "a": 2772,
+      "b": 3234,
+      "t0": 0,
+      "t1": 462,
+      "line": "Cornell University, 2000 \u2014 three psychologists + the Detective"
+    },
+    {
+      "shot": "S8",
+      "a": 3234,
+      "b": 3696,
+      "t0": 0,
+      "t1": 462,
+      "line": "The classroom \u2014 fifteen students, one shirt"
+    },
+    {
+      "shot": "S9",
+      "a": 3696,
+      "b": 4158,
+      "t0": 0,
+      "t1": 462,
+      "line": "Clipboard \u2014 how many could name the shirt?"
+    },
+    {
+      "shot": "S10",
+      "a": 4158,
+      "b": 4620,
+      "t0": 0,
+      "t1": 462,
+      "line": "Pause and guess \u2014 32%"
+    },
+    {
+      "shot": "S11",
+      "a": 4620,
+      "b": 5082,
+      "t0": 0,
+      "t1": 462,
+      "line": "46% thought they'd be noticed"
+    },
+    {
+      "shot": "S12",
+      "a": 5082,
+      "b": 5544,
+      "t0": 0,
+      "t1": 462,
+      "line": "23% actually noticed"
+    },
+    {
+      "shot": "S13",
+      "a": 5544,
+      "b": 6006,
+      "t0": 0,
+      "t1": 462,
+      "line": "The Spotlight Effect \u2014 title card"
+    },
+    {
+      "shot": "S14",
+      "a": 6006,
+      "b": 6468,
+      "t0": 0,
+      "t1": 462,
+      "line": "Feels like it X2 / Actually is"
+    },
+    {
+      "shot": "S15",
+      "a": 6468,
+      "b": 6930,
+      "t0": 0,
+      "t1": 462,
+      "line": "People see you. They remember you."
+    },
+    {
+      "shot": "S16",
+      "a": 6930,
+      "b": 7392,
+      "t0": 0,
+      "t1": 462,
+      "line": "Jake glowing red while his friends react"
+    },
+    {
+      "shot": "S17",
+      "a": 7392,
+      "b": 7854,
+      "t0": 0,
+      "t1": 462,
+      "line": "Your replays 400 / Their replays 0"
+    },
+    {
+      "shot": "S18",
+      "a": 7854,
+      "b": 8316,
+      "t0": 0,
+      "t1": 462,
+      "line": "Why your brain does this to you \u2014 three rules"
+    },
+    {
+      "shot": "S19",
+      "a": 8316,
+      "b": 8778,
+      "t0": 0,
+      "t1": 462,
+      "line": "Rule One \u2014 your brain starts with you"
+    },
+    {
+      "shot": "S20",
+      "a": 8778,
+      "b": 9240,
+      "t0": 0,
+      "t1": 462,
+      "line": "You, in high definition \u2014 58"
+    },
+    {
+      "shot": "S21",
+      "a": 9240,
+      "b": 9702,
+      "t0": 0,
+      "t1": 462,
+      "line": "Plus one, plus one, plus one, times one hundred"
+    },
+    {
+      "shot": "S22",
+      "a": 9702,
+      "b": 10164,
+      "t0": 0,
+      "t1": 462,
+      "line": "Rule Two \u2014 everyone else is staring at themselves"
+    },
+    {
+      "shot": "S23",
+      "a": 10164,
+      "b": 10626,
+      "t0": 0,
+      "t1": 462,
+      "line": "Shirts they were proud of \u2014 Marley / King"
+    },
+    {
+      "shot": "S24",
+      "a": 10626,
+      "b": 11088,
+      "t0": 0,
+      "t1": 462,
+      "line": "8% actually noticed \u2014 overestimated six times over"
+    },
+    {
+      "shot": "S25",
+      "a": 11088,
+      "b": 11550,
+      "t0": 0,
+      "t1": 462,
+      "line": "Everyone has their own lobster"
+    },
+    {
+      "shot": "S26",
+      "a": 11550,
+      "b": 12012,
+      "t0": 0,
+      "t1": 462,
+      "line": "Who keeps score? Your brain / The room"
+    },
+    {
+      "shot": "S27",
+      "a": 12012,
+      "b": 12474,
+      "t0": 0,
+      "t1": 462,
+      "line": "Your brain inflates everything"
+    },
+    {
+      "shot": "S28",
+      "a": 12474,
+      "b": 12936,
+      "t0": 0,
+      "t1": 462,
+      "line": "2001: do they judge as harshly?"
+    },
+    {
+      "shot": "S29",
+      "a": 12936,
+      "b": 13398,
+      "t0": 0,
+      "t1": 462,
+      "line": "Rule Three \u2014 the spotlight dims faster than you think"
+    },
+    {
+      "shot": "S30",
+      "a": 13398,
+      "b": 13860,
+      "t0": 0,
+      "t1": 462,
+      "line": "Same shirt, same room \u2014 51% fresh / 37% after 15 min"
+    },
+    {
+      "shot": "S31",
+      "a": 13860,
+      "b": 14321,
+      "t0": 0,
+      "t1": 461,
+      "line": "The feeling has a half-life \u2014 15 minutes"
+    },
+    {
+      "shot": "S32",
+      "a": 14321,
+      "b": 14782,
+      "t0": 0,
+      "t1": 461,
+      "line": "23% did notice \u2014 almost one in four"
+    },
+    {
+      "shot": "S33",
+      "a": 14782,
+      "b": 15243,
+      "t0": 0,
+      "t1": 461,
+      "line": "What were they wearing? The third person on your left"
+    },
+    {
+      "shot": "S34",
+      "a": 15243,
+      "b": 15704,
+      "t0": 0,
+      "t1": 461,
+      "line": "Jake and his friend \u2014 My week was great!"
+    },
+    {
+      "shot": "S35",
+      "a": 15704,
+      "b": 16165,
+      "t0": 0,
+      "t1": 461,
+      "line": "Don't run. Don't hide. \u2014 9:35"
+    },
+    {
+      "shot": "S36",
+      "a": 16165,
+      "b": 16626,
+      "t0": 0,
+      "t1": 461,
+      "line": "Your movie, starring: you"
+    },
+    {
+      "shot": "S37",
+      "a": 16626,
+      "b": 17087,
+      "t0": 0,
+      "t1": 461,
+      "line": "How was your week? \u2014 the friends"
+    },
+    {
+      "shot": "S38",
+      "a": 17087,
+      "b": 17548,
+      "t0": 0,
+      "t1": 461,
+      "line": "Remember the numbers \u2014 46 felt it / 23 real / 8 proud"
+    },
+    {
+      "shot": "S39",
+      "a": 17548,
+      "b": 18009,
+      "t0": 0,
+      "t1": 461,
+      "line": "Which one stung the most? \u2014 the Detective"
+    },
+    {
+      "shot": "S40",
+      "a": 18009,
+      "b": 18470,
+      "t0": 0,
+      "t1": 461,
+      "line": "Next Wednesday \u2014 you're trapped"
+    },
+    {
+      "shot": "S41",
+      "a": 18470,
+      "b": 18590,
+      "t0": 0,
+      "t1": 120,
+      "line": "End card \u2014 Inkl, Like / Subscribe"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 0,
+      "line": "Cold open \u2014 Jake in his bedroom, 19:47"
+    },
+    {
+      "id": "S2",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 462,
+      "line": "Jake, worried, in his bedroom"
+    },
+    {
+      "id": "S3",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 924,
+      "line": "The party \u2014 Jake at the center, friends around"
+    },
+    {
+      "id": "S4",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 1386,
+      "line": "Jake close-up, shocked"
+    },
+    {
+      "id": "S5",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 1848,
+      "line": "Title \u2014 Why does it feel like everyone is watching you?"
+    },
+    {
+      "id": "S6",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 2310,
+      "line": "Jake imagines the whole party watching him"
+    },
+    {
+      "id": "S7",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 2772,
+      "line": "Cornell University, 2000 \u2014 three psychologists + the Detective"
+    },
+    {
+      "id": "S8",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 3234,
+      "line": "The classroom \u2014 fifteen students, one shirt"
+    },
+    {
+      "id": "S9",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 3696,
+      "line": "Clipboard \u2014 how many could name the shirt?"
+    },
+    {
+      "id": "S10",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 4158,
+      "line": "Pause and guess \u2014 32%"
+    },
+    {
+      "id": "S11",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 4620,
+      "line": "46% thought they'd be noticed"
+    },
+    {
+      "id": "S12",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 5082,
+      "line": "23% actually noticed"
+    },
+    {
+      "id": "S13",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 5544,
+      "line": "The Spotlight Effect \u2014 title card"
+    },
+    {
+      "id": "S14",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 6006,
+      "line": "Feels like it X2 / Actually is"
+    },
+    {
+      "id": "S15",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 6468,
+      "line": "People see you. They remember you."
+    },
+    {
+      "id": "S16",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 6930,
+      "line": "Jake glowing red while his friends react"
+    },
+    {
+      "id": "S17",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 7392,
+      "line": "Your replays 400 / Their replays 0"
+    },
+    {
+      "id": "S18",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 7854,
+      "line": "Why your brain does this to you \u2014 three rules"
+    },
+    {
+      "id": "S19",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 8316,
+      "line": "Rule One \u2014 your brain starts with you"
+    },
+    {
+      "id": "S20",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 8778,
+      "line": "You, in high definition \u2014 58"
+    },
+    {
+      "id": "S21",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 9240,
+      "line": "Plus one, plus one, plus one, times one hundred"
+    },
+    {
+      "id": "S22",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 9702,
+      "line": "Rule Two \u2014 everyone else is staring at themselves"
+    },
+    {
+      "id": "S23",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 10164,
+      "line": "Shirts they were proud of \u2014 Marley / King"
+    },
+    {
+      "id": "S24",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 10626,
+      "line": "8% actually noticed \u2014 overestimated six times over"
+    },
+    {
+      "id": "S25",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 11088,
+      "line": "Everyone has their own lobster"
+    },
+    {
+      "id": "S26",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 11550,
+      "line": "Who keeps score? Your brain / The room"
+    },
+    {
+      "id": "S27",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 12012,
+      "line": "Your brain inflates everything"
+    },
+    {
+      "id": "S28",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 12474,
+      "line": "2001: do they judge as harshly?"
+    },
+    {
+      "id": "S29",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 12936,
+      "line": "Rule Three \u2014 the spotlight dims faster than you think"
+    },
+    {
+      "id": "S30",
+      "size": "wide",
+      "key": 231,
+      "len": 462,
+      "first": 13398,
+      "line": "Same shirt, same room \u2014 51% fresh / 37% after 15 min"
+    },
+    {
+      "id": "S31",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 13860,
+      "line": "The feeling has a half-life \u2014 15 minutes"
+    },
+    {
+      "id": "S32",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 14321,
+      "line": "23% did notice \u2014 almost one in four"
+    },
+    {
+      "id": "S33",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 14782,
+      "line": "What were they wearing? The third person on your left"
+    },
+    {
+      "id": "S34",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 15243,
+      "line": "Jake and his friend \u2014 My week was great!"
+    },
+    {
+      "id": "S35",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 15704,
+      "line": "Don't run. Don't hide. \u2014 9:35"
+    },
+    {
+      "id": "S36",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 16165,
+      "line": "Your movie, starring: you"
+    },
+    {
+      "id": "S37",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 16626,
+      "line": "How was your week? \u2014 the friends"
+    },
+    {
+      "id": "S38",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 17087,
+      "line": "Remember the numbers \u2014 46 felt it / 23 real / 8 proud"
+    },
+    {
+      "id": "S39",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 17548,
+      "line": "Which one stung the most? \u2014 the Detective"
+    },
+    {
+      "id": "S40",
+      "size": "wide",
+      "key": 230,
+      "len": 461,
+      "first": 18009,
+      "line": "Next Wednesday \u2014 you're trapped"
+    },
+    {
+      "id": "S41",
+      "size": "wide",
+      "key": 60,
+      "len": 120,
+      "first": 18470,
+      "line": "End card \u2014 Inkl, Like / Subscribe"
+    }
+  ],
+  "fx": [],
+  "audio": {
+    "voice": "zenn-002/voice.wav",
+    "sfx": "zenn-002/sfx.wav",
+    "voiceVol": 0.8,
+    "sfxVol": 0.2559,
+    "music": "zenn-002/music.wav",
+    "musicVol": 0.0499
+  }
+}

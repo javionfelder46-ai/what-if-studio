@@ -1,0 +1,53 @@
+name: Render zenn-006 (4 chunks in parallel)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - chunk: 1
+            start: 0
+            end: 4410
+          - chunk: 2
+            start: 4411
+            end: 8821
+          - chunk: 3
+            start: 8822
+            end: 13232
+          - chunk: 4
+            start: 13233
+            end: 17643
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Check ffmpeg
+        run: which ffmpeg && ffmpeg -version | head -1
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Render chunk ${{ matrix.chunk }} (frames ${{ matrix.start }}-${{ matrix.end }})
+        run: node scripts/render_frames_png.mjs zenn-006 ${{ matrix.start }} ${{ matrix.end }} out/zenn-006/chunk${{ matrix.chunk }}.mp4
+        env:
+          TMPDIR: ${{ runner.temp }}/bundle-tmp
+
+      - name: Verify chunk mp4
+        run: |
+          ffprobe -v error -show_entries format=duration -show_entries stream=width,height,r_frame_rate,nb_frames -of default=noprint_wrappers=1 out/zenn-006/chunk${{ matrix.chunk }}.mp4
+          ls -lh out/zenn-006/chunk${{ matrix.chunk }}.mp4
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zenn006-chunk${{ matrix.chunk }}
+          path: out/zenn-006/chunk${{ matrix.chunk }}.mp4
+          retention-days: 2

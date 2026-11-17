@@ -1,0 +1,700 @@
+{
+ "audio": {},
+ "fps": 30,
+ "fx": [],
+ "segments": [
+  {
+   "a": 0,
+   "b": 396,
+   "line": "Jake woke up this morning and the world had numbers on it. Not prices. Not scores. Above every single person — a countdown. And the man in front of him had two minutes and forty-seven seconds left.",
+   "shot": "S1",
+   "t0": 0,
+   "t1": 396
+  },
+  {
+   "a": 396,
+   "b": 749,
+   "line": "Two minutes and forty-seven seconds. Not two years. Not two days. Two minutes. Jake did the only thing you could do when you see a stranger with two minutes left. He followed him.",
+   "shot": "S2",
+   "t0": 0,
+   "t1": 353
+  },
+  {
+   "a": 749,
+   "b": 1135,
+   "line": "Now, before you ask — no, Jake didn't know what the number meant yet. Death? A deadline? A bus? He had no idea. He just knew that number was falling, and nobody else could see it.",
+   "shot": "S3",
+   "t0": 0,
+   "t1": 386
+  },
+  {
+   "a": 1135,
+   "b": 1488,
+   "line": "So here's the question, and be honest. If you could see how much time everyone had left — would you tell them? Drop it in the comments. Because Jake was about to try.",
+   "shot": "S4",
+   "t0": 0,
+   "t1": 353
+  },
+  {
+   "a": 1488,
+   "b": 1906,
+   "line": "The man wasn't running toward anything. He was arguing on the phone — about an invoice, a deadline, something that would not matter in a week. He had ninety-eight seconds left and he was spending them on an invoice.",
+   "shot": "S5",
+   "t0": 0,
+   "t1": 418
+  },
+  {
+   "a": 1906,
+   "b": 2270,
+   "line": "Jake tried to warn him. He grabbed the man's arm and said the words out loud: \"You have eighty seconds.\" The man didn't even look at him. He just pulled away and kept walking.",
+   "shot": "S6",
+   "t0": 0,
+   "t1": 364
+  },
+  {
+   "a": 2270,
+   "b": 2548,
+   "line": "Thirty seconds. Jake's heart was doing something it had never done before — beating in time with a stranger's countdown. Twenty seconds. Ten. And then —",
+   "shot": "S7",
+   "t0": 0,
+   "t1": 278
+  },
+  {
+   "a": 2548,
+   "b": 2901,
+   "line": "Zero. And nothing happened. No lightning. No collapse. The man just stopped. He lowered his phone, looked up at the sky — and for the first time all day, he actually saw it.",
+   "shot": "S8",
+   "t0": 0,
+   "t1": 353
+  },
+  {
+   "a": 2901,
+   "b": 3265,
+   "line": "And the number was gone. Not zero. Gone. The man walked away slower than before, like someone who had just remembered he was alive. And Jake stood there with a question he couldn't shake.",
+   "shot": "S9",
+   "t0": 0,
+   "t1": 364
+  },
+  {
+   "a": 3265,
+   "b": 3715,
+   "line": "If the number wasn't death — what was it? Jake had a whole city of countdowns to figure out, and the next one he looked at belonged to someone he actually knew. Stay — because that one had forty years on it.",
+   "shot": "S10",
+   "t0": 0,
+   "t1": 450
+  },
+  {
+   "a": 3715,
+   "b": 4122,
+   "line": "Forty years. That's what was hanging over his friend's head. Not forty days. Forty years. She was doing nothing special — sitting on a bench, drinking coffee, laughing at something on her phone. And her number was enormous.",
+   "shot": "S11",
+   "t0": 0,
+   "t1": 407
+  },
+  {
+   "a": 4122,
+   "b": 4582,
+   "line": "And right across the park, the man from the crosswalk — the invoice guy — his number said six days. Six days. He was young, healthy, rich, and his number was six days. His friend was broke, ordinary, and hers was forty years.",
+   "shot": "S12",
+   "t0": 0,
+   "t1": 460
+  },
+  {
+   "a": 4582,
+   "b": 5021,
+   "line": "Here's the first piece of real science. Your brain does not have a clock in it. It builds time out of memories. The more new things you notice, the longer a moment feels. The less you notice, the faster life goes.",
+   "shot": "S13",
+   "t0": 0,
+   "t1": 439
+  },
+  {
+   "a": 5021,
+   "b": 5492,
+   "line": "That's why a car crash feels like it lasts forever. Your brain lays down dense, detailed memories in a crisis — and when you play them back, all that detail makes the moment feel longer. It wasn't slow motion. It was a memory trick.",
+   "shot": "S14",
+   "t0": 0,
+   "t1": 471
+  },
+  {
+   "a": 5492,
+   "b": 5985,
+   "line": "And look at the kid. Seventy-eight years. He's not thinking about time at all — he's chasing pigeons. The people with the biggest numbers weren't the ones with the most money, or the most years ahead of them. They were the ones who were actually here.",
+   "shot": "S15",
+   "t0": 0,
+   "t1": 493
+  },
+  {
+   "a": 5985,
+   "b": 6542,
+   "line": "So the numbers weren't counting down to death. They were counting how much of your life you were actually living. The businessman was sleepwalking through his. The kid was wide awake. Stay — because Jake was about to spend the afternoon with the woman who had forty years, and find out why.",
+   "shot": "S16",
+   "t0": 0,
+   "t1": 557
+  },
+  {
+   "a": 6542,
+   "b": 6928,
+   "line": "Jake spent the afternoon with his friend, and he started to see it. She wasn't doing anything impressive. She was cooking dinner, singing off-key, texting her mom back. Ordinary stuff. But she was actually doing it.",
+   "shot": "S17",
+   "t0": 0,
+   "t1": 386
+  },
+  {
+   "a": 6928,
+   "b": 7399,
+   "line": "She called her mom just to say hi. She had a photo of herself as a kid on the wall, and she looked at it like it was a good memory, not a lost one. She wasn't collecting moments. She was just... in them.",
+   "shot": "S18",
+   "t0": 0,
+   "t1": 471
+  },
+  {
+   "a": 7399,
+   "b": 7892,
+   "line": "In 2006, a Stanford psychologist named Laura Carstensen found something that explains her. When people feel their time is limited, they stop chasing status and start chasing meaning. Family. Friends. The people they love. Not because they're giving up — because they finally know what matters.",
+   "shot": "S19",
+   "t0": 0,
+   "t1": 493
+  },
+  {
+   "a": 7892,
+   "b": 8278,
+   "line": "His friend wasn't afraid of her number. She didn't even know it was there. She just lived like time was precious — because, to her, it was. And Jake realized something that made his stomach drop.",
+   "shot": "S20",
+   "t0": 0,
+   "t1": 386
+  },
+  {
+   "a": 8278,
+   "b": 8781,
+   "line": "He couldn't see his own number. Every mirror, every window — nothing above his head. Was his number zero? Was he already out of time? Quick question — if you could see everyone else's countdown but never your own, would that be a gift or a curse?",
+   "shot": "S21",
+   "t0": 0,
+   "t1": 503
+  },
+  {
+   "a": 8781,
+   "b": 9338,
+   "line": "He walked home through a city full of numbers, and he finally understood the question. It was never \"how much time do you have?\" It was \"what are you doing with it?\" Stay — because the next man Jake met was trying to buy more time. And it was not going well.",
+   "shot": "S22",
+   "t0": 0,
+   "t1": 557
+  },
+  {
+   "a": 9338,
+   "b": 9777,
+   "line": "Two days. That's what was hanging over the man in the corner office at two in the morning. He had a sleep tracker, a supplement stack, a productivity system, and a calendar booked solid for the next six months. Two days.",
+   "shot": "S23",
+   "t0": 0,
+   "t1": 439
+  },
+  {
+   "a": 9777,
+   "b": 10163,
+   "line": "He was trying to buy time. Less sleep, more work, optimize everything. He treated his body like a machine he could tune. And his number was shrinking. The harder he chased time, the faster it went.",
+   "shot": "S24",
+   "t0": 0,
+   "t1": 386
+  },
+  {
+   "a": 10163,
+   "b": 10699,
+   "line": "Here's why. When every day is the same — same desk, same route, same routine — your brain stops laying down new memories. And with no new memories, a month collapses into a blur. But a day full of new things? That day stretches. Your brain remembers it. It counts.",
+   "shot": "S25",
+   "t0": 0,
+   "t1": 536
+  },
+  {
+   "a": 10699,
+   "b": 11127,
+   "line": "The man had optimized everything except the one thing that mattered: he had never once stopped to actually be where he was. He was always in the next meeting, the next quarter, the next year. And the number knew it.",
+   "shot": "S26",
+   "t0": 0,
+   "t1": 428
+  },
+  {
+   "a": 11127,
+   "b": 11523,
+   "line": "Jake didn't warn this one. He'd learned his lesson — you can't scare someone into living. The man had to notice it himself. And Jake was starting to wonder if the numbers were a gift at all.",
+   "shot": "S27",
+   "t0": 0,
+   "t1": 396
+  },
+  {
+   "a": 11523,
+   "b": 11951,
+   "line": "Because knowing isn't the same as doing. Jake could see everyone's time slipping away, and he couldn't make a single person stop. Until he met the woman with four hours left — and this time, he didn't just watch. Stay.",
+   "shot": "S28",
+   "t0": 0,
+   "t1": 428
+  },
+  {
+   "a": 11951,
+   "b": 12358,
+   "line": "Four hours. She was sitting alone on a bench, arms crossed, glaring at a pigeon like it owed her money. She had pushed everyone away — her brother, her friends, her kids. And her number said four hours.",
+   "shot": "S29",
+   "t0": 0,
+   "t1": 407
+  },
+  {
+   "a": 12358,
+   "b": 12776,
+   "line": "Jake sat down next to her. He didn't warn her about the number — he'd learned that doesn't work. He just offered her half his sandwich. She stared at it like it was a trick. Then she took it.",
+   "shot": "S30",
+   "t0": 0,
+   "t1": 418
+  },
+  {
+   "a": 12776,
+   "b": 13183,
+   "line": "She talked. About her brother, who she hadn't called in three years. About how everyone leaves eventually, so why bother. And as she talked, her number started to climb. Four hours. Six hours. Two days. It was moving.",
+   "shot": "S31",
+   "t0": 0,
+   "t1": 407
+  },
+  {
+   "a": 13183,
+   "b": 13643,
+   "line": "Then she did something she hadn't done in three years. She called her brother. And when he picked up — when she heard his voice — her number jumped to eleven years. Eleven. From four hours to eleven years, in one phone call.",
+   "shot": "S32",
+   "t0": 0,
+   "t1": 460
+  },
+  {
+   "a": 13643,
+   "b": 14168,
+   "line": "There's a real name for what just happened. In 2002, researchers found that reminding people of death — just making them think about it — made them kinder and more generous. They called it the Scrooge effect. Like Ebenezer Scrooge, who met his own ending and woke up generous.",
+   "shot": "S33",
+   "t0": 0,
+   "t1": 525
+  },
+  {
+   "a": 14168,
+   "b": 14586,
+   "line": "So knowing time is short doesn't make people panic. It makes them kind. It makes them call their brother. It makes them share a sandwich. Stay — because Jake still had one number left to figure out. His own.",
+   "shot": "S34",
+   "t0": 0,
+   "t1": 418
+  },
+  {
+   "a": 14586,
+   "b": 14961,
+   "line": "He tried everything. Every mirror, every window, every puddle. He waved his hand over his own head like he was checking for rain. Nothing. No number. Not zero, not a hundred years. Nothing at all.",
+   "shot": "S35",
+   "t0": 0,
+   "t1": 375
+  },
+  {
+   "a": 14961,
+   "b": 15379,
+   "line": "And then the Detective said the thing that finally made it click. He said: \"You're not supposed to see your own number, Jake. If you could see it, you'd spend your whole life watching it instead of living it.\"",
+   "shot": "S36",
+   "t0": 0,
+   "t1": 418
+  },
+  {
+   "a": 15379,
+   "b": 15882,
+   "line": "Here's the real science, and it's the whole video in one sentence. When people are reminded that time is limited, they don't chase more time — they chase better time. The people they love. The things that matter. The number was never the point. The living was.",
+   "shot": "S37",
+   "t0": 0,
+   "t1": 503
+  },
+  {
+   "a": 15882,
+   "b": 16439,
+   "line": "So the countdowns were never fate. They were a mirror. The people with short numbers weren't dying soon — they were wasting the time they had. The people with long numbers weren't immortal — they were just awake. And Jake finally understood his own number was the only one that didn't matter.",
+   "shot": "S38",
+   "t0": 0,
+   "t1": 557
+  },
+  {
+   "a": 16439,
+   "b": 16921,
+   "line": "Because you don't need to see your number to know what to do with it. Jake called his mom. He'd been meaning to for weeks. Stay for the close — because the twist isn't that the numbers were fake. It's that you already know yours.",
+   "shot": "S39",
+   "t0": 0,
+   "t1": 482
+  },
+  {
+   "a": 16921,
+   "b": 17242,
+   "line": "Jake still sees the numbers. Every morning, every street, every crowd. But he doesn't follow them anymore. He doesn't warn people. He just lives — because he finally gets it.",
+   "shot": "S40",
+   "t0": 0,
+   "t1": 321
+  },
+  {
+   "a": 17242,
+   "b": 17574,
+   "line": "The businessman looks at the sky now. The woman calls her brother every Sunday. The kid is still chasing pigeons. None of them know their numbers. None of them need to.",
+   "shot": "S41",
+   "t0": 0,
+   "t1": 332
+  },
+  {
+   "a": 17574,
+   "b": 18142,
+   "line": "So — if you knew exactly how much time you had left, what would you change tomorrow? Drop it in the comments. And here's the thing: you don't actually need the number. You already know what you'd change. The only question is whether you'll do it before the countdown does it for you.",
+   "shot": "S42",
+   "t0": 0,
+   "t1": 568
+  },
+  {
+   "a": 18142,
+   "b": 18262,
+   "line": "",
+   "shot": "S43",
+   "t0": 0,
+   "t1": 120
+  }
+ ],
+ "shots": [
+  {
+   "first": 0,
+   "id": "S1",
+   "key": 198,
+   "len": 396,
+   "line": "Jake woke up this morning and the world had numbers on it. Not prices. Not scores. Above every single person — a countdown. And the man in front of him had two minutes and forty-seven seconds left.",
+   "size": ""
+  },
+  {
+   "first": 396,
+   "id": "S2",
+   "key": 176,
+   "len": 353,
+   "line": "Two minutes and forty-seven seconds. Not two years. Not two days. Two minutes. Jake did the only thing you could do when you see a stranger with two minutes left. He followed him.",
+   "size": ""
+  },
+  {
+   "first": 749,
+   "id": "S3",
+   "key": 193,
+   "len": 386,
+   "line": "Now, before you ask — no, Jake didn't know what the number meant yet. Death? A deadline? A bus? He had no idea. He just knew that number was falling, and nobody else could see it.",
+   "size": ""
+  },
+  {
+   "first": 1135,
+   "id": "S4",
+   "key": 176,
+   "len": 353,
+   "line": "So here's the question, and be honest. If you could see how much time everyone had left — would you tell them? Drop it in the comments. Because Jake was about to try.",
+   "size": ""
+  },
+  {
+   "first": 1488,
+   "id": "S5",
+   "key": 209,
+   "len": 418,
+   "line": "The man wasn't running toward anything. He was arguing on the phone — about an invoice, a deadline, something that would not matter in a week. He had ninety-eight seconds left and he was spending them on an invoice.",
+   "size": ""
+  },
+  {
+   "first": 1906,
+   "id": "S6",
+   "key": 182,
+   "len": 364,
+   "line": "Jake tried to warn him. He grabbed the man's arm and said the words out loud: \"You have eighty seconds.\" The man didn't even look at him. He just pulled away and kept walking.",
+   "size": ""
+  },
+  {
+   "first": 2270,
+   "id": "S7",
+   "key": 139,
+   "len": 278,
+   "line": "Thirty seconds. Jake's heart was doing something it had never done before — beating in time with a stranger's countdown. Twenty seconds. Ten. And then —",
+   "size": ""
+  },
+  {
+   "first": 2548,
+   "id": "S8",
+   "key": 176,
+   "len": 353,
+   "line": "Zero. And nothing happened. No lightning. No collapse. The man just stopped. He lowered his phone, looked up at the sky — and for the first time all day, he actually saw it.",
+   "size": ""
+  },
+  {
+   "first": 2901,
+   "id": "S9",
+   "key": 182,
+   "len": 364,
+   "line": "And the number was gone. Not zero. Gone. The man walked away slower than before, like someone who had just remembered he was alive. And Jake stood there with a question he couldn't shake.",
+   "size": ""
+  },
+  {
+   "first": 3265,
+   "id": "S10",
+   "key": 225,
+   "len": 450,
+   "line": "If the number wasn't death — what was it? Jake had a whole city of countdowns to figure out, and the next one he looked at belonged to someone he actually knew. Stay — because that one had forty years on it.",
+   "size": ""
+  },
+  {
+   "first": 3715,
+   "id": "S11",
+   "key": 203,
+   "len": 407,
+   "line": "Forty years. That's what was hanging over his friend's head. Not forty days. Forty years. She was doing nothing special — sitting on a bench, drinking coffee, laughing at something on her phone. And her number was enormous.",
+   "size": ""
+  },
+  {
+   "first": 4122,
+   "id": "S12",
+   "key": 230,
+   "len": 460,
+   "line": "And right across the park, the man from the crosswalk — the invoice guy — his number said six days. Six days. He was young, healthy, rich, and his number was six days. His friend was broke, ordinary, and hers was forty years.",
+   "size": ""
+  },
+  {
+   "first": 4582,
+   "id": "S13",
+   "key": 219,
+   "len": 439,
+   "line": "Here's the first piece of real science. Your brain does not have a clock in it. It builds time out of memories. The more new things you notice, the longer a moment feels. The less you notice, the faster life goes.",
+   "size": ""
+  },
+  {
+   "first": 5021,
+   "id": "S14",
+   "key": 235,
+   "len": 471,
+   "line": "That's why a car crash feels like it lasts forever. Your brain lays down dense, detailed memories in a crisis — and when you play them back, all that detail makes the moment feel longer. It wasn't slow motion. It was a memory trick.",
+   "size": ""
+  },
+  {
+   "first": 5492,
+   "id": "S15",
+   "key": 246,
+   "len": 493,
+   "line": "And look at the kid. Seventy-eight years. He's not thinking about time at all — he's chasing pigeons. The people with the biggest numbers weren't the ones with the most money, or the most years ahead of them. They were the ones who were actually here.",
+   "size": ""
+  },
+  {
+   "first": 5985,
+   "id": "S16",
+   "key": 278,
+   "len": 557,
+   "line": "So the numbers weren't counting down to death. They were counting how much of your life you were actually living. The businessman was sleepwalking through his. The kid was wide awake. Stay — because Jake was about to spend the afternoon with the woman who had forty years, and find out why.",
+   "size": ""
+  },
+  {
+   "first": 6542,
+   "id": "S17",
+   "key": 193,
+   "len": 386,
+   "line": "Jake spent the afternoon with his friend, and he started to see it. She wasn't doing anything impressive. She was cooking dinner, singing off-key, texting her mom back. Ordinary stuff. But she was actually doing it.",
+   "size": ""
+  },
+  {
+   "first": 6928,
+   "id": "S18",
+   "key": 235,
+   "len": 471,
+   "line": "She called her mom just to say hi. She had a photo of herself as a kid on the wall, and she looked at it like it was a good memory, not a lost one. She wasn't collecting moments. She was just... in them.",
+   "size": ""
+  },
+  {
+   "first": 7399,
+   "id": "S19",
+   "key": 246,
+   "len": 493,
+   "line": "In 2006, a Stanford psychologist named Laura Carstensen found something that explains her. When people feel their time is limited, they stop chasing status and start chasing meaning. Family. Friends. The people they love. Not because they're giving up — because they finally know what matters.",
+   "size": ""
+  },
+  {
+   "first": 7892,
+   "id": "S20",
+   "key": 193,
+   "len": 386,
+   "line": "His friend wasn't afraid of her number. She didn't even know it was there. She just lived like time was precious — because, to her, it was. And Jake realized something that made his stomach drop.",
+   "size": ""
+  },
+  {
+   "first": 8278,
+   "id": "S21",
+   "key": 251,
+   "len": 503,
+   "line": "He couldn't see his own number. Every mirror, every window — nothing above his head. Was his number zero? Was he already out of time? Quick question — if you could see everyone else's countdown but never your own, would that be a gift or a curse?",
+   "size": ""
+  },
+  {
+   "first": 8781,
+   "id": "S22",
+   "key": 278,
+   "len": 557,
+   "line": "He walked home through a city full of numbers, and he finally understood the question. It was never \"how much time do you have?\" It was \"what are you doing with it?\" Stay — because the next man Jake met was trying to buy more time. And it was not going well.",
+   "size": ""
+  },
+  {
+   "first": 9338,
+   "id": "S23",
+   "key": 219,
+   "len": 439,
+   "line": "Two days. That's what was hanging over the man in the corner office at two in the morning. He had a sleep tracker, a supplement stack, a productivity system, and a calendar booked solid for the next six months. Two days.",
+   "size": ""
+  },
+  {
+   "first": 9777,
+   "id": "S24",
+   "key": 193,
+   "len": 386,
+   "line": "He was trying to buy time. Less sleep, more work, optimize everything. He treated his body like a machine he could tune. And his number was shrinking. The harder he chased time, the faster it went.",
+   "size": ""
+  },
+  {
+   "first": 10163,
+   "id": "S25",
+   "key": 268,
+   "len": 536,
+   "line": "Here's why. When every day is the same — same desk, same route, same routine — your brain stops laying down new memories. And with no new memories, a month collapses into a blur. But a day full of new things? That day stretches. Your brain remembers it. It counts.",
+   "size": ""
+  },
+  {
+   "first": 10699,
+   "id": "S26",
+   "key": 214,
+   "len": 428,
+   "line": "The man had optimized everything except the one thing that mattered: he had never once stopped to actually be where he was. He was always in the next meeting, the next quarter, the next year. And the number knew it.",
+   "size": ""
+  },
+  {
+   "first": 11127,
+   "id": "S27",
+   "key": 198,
+   "len": 396,
+   "line": "Jake didn't warn this one. He'd learned his lesson — you can't scare someone into living. The man had to notice it himself. And Jake was starting to wonder if the numbers were a gift at all.",
+   "size": ""
+  },
+  {
+   "first": 11523,
+   "id": "S28",
+   "key": 214,
+   "len": 428,
+   "line": "Because knowing isn't the same as doing. Jake could see everyone's time slipping away, and he couldn't make a single person stop. Until he met the woman with four hours left — and this time, he didn't just watch. Stay.",
+   "size": ""
+  },
+  {
+   "first": 11951,
+   "id": "S29",
+   "key": 203,
+   "len": 407,
+   "line": "Four hours. She was sitting alone on a bench, arms crossed, glaring at a pigeon like it owed her money. She had pushed everyone away — her brother, her friends, her kids. And her number said four hours.",
+   "size": ""
+  },
+  {
+   "first": 12358,
+   "id": "S30",
+   "key": 209,
+   "len": 418,
+   "line": "Jake sat down next to her. He didn't warn her about the number — he'd learned that doesn't work. He just offered her half his sandwich. She stared at it like it was a trick. Then she took it.",
+   "size": ""
+  },
+  {
+   "first": 12776,
+   "id": "S31",
+   "key": 203,
+   "len": 407,
+   "line": "She talked. About her brother, who she hadn't called in three years. About how everyone leaves eventually, so why bother. And as she talked, her number started to climb. Four hours. Six hours. Two days. It was moving.",
+   "size": ""
+  },
+  {
+   "first": 13183,
+   "id": "S32",
+   "key": 230,
+   "len": 460,
+   "line": "Then she did something she hadn't done in three years. She called her brother. And when he picked up — when she heard his voice — her number jumped to eleven years. Eleven. From four hours to eleven years, in one phone call.",
+   "size": ""
+  },
+  {
+   "first": 13643,
+   "id": "S33",
+   "key": 262,
+   "len": 525,
+   "line": "There's a real name for what just happened. In 2002, researchers found that reminding people of death — just making them think about it — made them kinder and more generous. They called it the Scrooge effect. Like Ebenezer Scrooge, who met his own ending and woke up generous.",
+   "size": ""
+  },
+  {
+   "first": 14168,
+   "id": "S34",
+   "key": 209,
+   "len": 418,
+   "line": "So knowing time is short doesn't make people panic. It makes them kind. It makes them call their brother. It makes them share a sandwich. Stay — because Jake still had one number left to figure out. His own.",
+   "size": ""
+  },
+  {
+   "first": 14586,
+   "id": "S35",
+   "key": 187,
+   "len": 375,
+   "line": "He tried everything. Every mirror, every window, every puddle. He waved his hand over his own head like he was checking for rain. Nothing. No number. Not zero, not a hundred years. Nothing at all.",
+   "size": ""
+  },
+  {
+   "first": 14961,
+   "id": "S36",
+   "key": 209,
+   "len": 418,
+   "line": "And then the Detective said the thing that finally made it click. He said: \"You're not supposed to see your own number, Jake. If you could see it, you'd spend your whole life watching it instead of living it.\"",
+   "size": ""
+  },
+  {
+   "first": 15379,
+   "id": "S37",
+   "key": 251,
+   "len": 503,
+   "line": "Here's the real science, and it's the whole video in one sentence. When people are reminded that time is limited, they don't chase more time — they chase better time. The people they love. The things that matter. The number was never the point. The living was.",
+   "size": ""
+  },
+  {
+   "first": 15882,
+   "id": "S38",
+   "key": 278,
+   "len": 557,
+   "line": "So the countdowns were never fate. They were a mirror. The people with short numbers weren't dying soon — they were wasting the time they had. The people with long numbers weren't immortal — they were just awake. And Jake finally understood his own number was the only one that didn't matter.",
+   "size": ""
+  },
+  {
+   "first": 16439,
+   "id": "S39",
+   "key": 241,
+   "len": 482,
+   "line": "Because you don't need to see your number to know what to do with it. Jake called his mom. He'd been meaning to for weeks. Stay for the close — because the twist isn't that the numbers were fake. It's that you already know yours.",
+   "size": ""
+  },
+  {
+   "first": 16921,
+   "id": "S40",
+   "key": 160,
+   "len": 321,
+   "line": "Jake still sees the numbers. Every morning, every street, every crowd. But he doesn't follow them anymore. He doesn't warn people. He just lives — because he finally gets it.",
+   "size": ""
+  },
+  {
+   "first": 17242,
+   "id": "S41",
+   "key": 166,
+   "len": 332,
+   "line": "The businessman looks at the sky now. The woman calls her brother every Sunday. The kid is still chasing pigeons. None of them know their numbers. None of them need to.",
+   "size": ""
+  },
+  {
+   "first": 17574,
+   "id": "S42",
+   "key": 284,
+   "len": 568,
+   "line": "So — if you knew exactly how much time you had left, what would you change tomorrow? Drop it in the comments. And here's the thing: you don't actually need the number. You already know what you'd change. The only question is whether you'll do it before the countdown does it for you.",
+   "size": ""
+  },
+  {
+   "first": 18142,
+   "id": "S43",
+   "key": 60,
+   "len": 120,
+   "line": "",
+   "size": ""
+  }
+ ],
+ "slug": "zenn-009",
+ "title": "WHAT IF YOU COULD SEE HOW MUCH TIME EVERYONE HAS LEFT?",
+ "total": 18262
+}

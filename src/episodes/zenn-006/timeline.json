@@ -1,0 +1,700 @@
+{
+ "audio": {},
+ "fps": 30,
+ "fx": [],
+ "segments": [
+  {
+   "a": 0,
+   "b": 158,
+   "line": "Jake just had the worst night of his life. He remembers none of it. Not one second.",
+   "shot": "S1",
+   "t0": 0,
+   "t1": 158
+  },
+  {
+   "a": 158,
+   "b": 458,
+   "line": "His heart is pounding like he ran a marathon in his sleep. His brain is screaming. And the memory? Gone. Deleted. Like it never happened.",
+   "shot": "S2",
+   "t0": 0,
+   "t1": 300
+  },
+  {
+   "a": 458,
+   "b": 800,
+   "line": "That's not a bug. That's the feature. Your brain deletes the scariest moments of your life. On purpose. And tonight, you're going to find out why \u2014 and what it cost you.",
+   "shot": "S3",
+   "t0": 0,
+   "t1": 342
+  },
+  {
+   "a": 800,
+   "b": 1127,
+   "line": "But first \u2014 what's the scariest thing YOU can't remember? Think about it. Drop it in the comments. Because by the end of this video, you'll know exactly where it went.",
+   "shot": "S4",
+   "t0": 0,
+   "t1": 327
+  },
+  {
+   "a": 1127,
+   "b": 1393,
+   "line": "Jake made a decision this morning. He is not going to think about last night. Not one thought. Not a single one. This is going to go great.",
+   "shot": "S5",
+   "t0": 0,
+   "t1": 266
+  },
+  {
+   "a": 1393,
+   "b": 1760,
+   "line": "Here's the problem with that plan. Your brain has a security guard. And the guard's only job is to watch for the thing you're not supposed to think about. Which means the guard has to think about it. Constantly.",
+   "shot": "S6",
+   "t0": 0,
+   "t1": 367
+  },
+  {
+   "a": 1760,
+   "b": 2188,
+   "line": "In 1987, a psychologist named Daniel Wegner ran the simplest experiment ever. He asked people to talk out loud for five minutes and NOT think about a white bear. Every time the bear popped into their head, they rang a bell.",
+   "shot": "S7",
+   "t0": 0,
+   "t1": 428
+  },
+  {
+   "a": 2188,
+   "b": 2497,
+   "line": "They rang it constantly. About once a minute. Five minutes, no white bear? Impossible. The brain cannot follow that order. The order itself IS the thought.",
+   "shot": "S8",
+   "t0": 0,
+   "t1": 309
+  },
+  {
+   "a": 2497,
+   "b": 2925,
+   "line": "And here's the cruel part. When Wegner lifted the ban and said, okay, NOW you can think about the bear \u2014 the people who had been suppressing it thought about it MORE than the people who were never told to avoid it at all. The ban made it stronger.",
+   "shot": "S9",
+   "t0": 0,
+   "t1": 428
+  },
+  {
+   "a": 2925,
+   "b": 3237,
+   "line": "So trying not to think about the scary thing? That backfires. But Jake's brain has a second trick. And it's much stranger than a bear. Stay.",
+   "shot": "S10",
+   "t0": 0,
+   "t1": 312
+  },
+  {
+   "a": 3237,
+   "b": 3546,
+   "line": "Jake tried to remember last night. This is what he got. A sound. A cold feeling. No beginning. No end. No story. Just pieces.",
+   "shot": "S11",
+   "t0": 0,
+   "t1": 309
+  },
+  {
+   "a": 3546,
+   "b": 3961,
+   "line": "A normal memory gets filed like paperwork. When it happened. Where it happened. What happened next. Your brain stamps a date on it and puts it away. A traumatic memory skips the filing. It never gets a date.",
+   "shot": "S12",
+   "t0": 0,
+   "t1": 415
+  },
+  {
+   "a": 3961,
+   "b": 4543,
+   "line": "Here's why. When something terrifying happens, your brain floods with stress hormones. The alarm centre \u2014 the amygdala \u2014 fires at full power and records every sensory fragment in vivid detail. The filing clerk \u2014 the hippocampus \u2014 shuts down under the same hormones. It can't stamp the time or the place.",
+   "shot": "S13",
+   "t0": 0,
+   "t1": 582
+  },
+  {
+   "a": 4543,
+   "b": 4936,
+   "line": "So the fear gets saved in high definition. And the context gets saved nowhere. That's why a flashback doesn't feel like remembering. It feels like it's happening right now. The brain never wrote down that it was over.",
+   "shot": "S14",
+   "t0": 0,
+   "t1": 393
+  },
+  {
+   "a": 4936,
+   "b": 5420,
+   "line": "About six in every hundred adults in the US will live with PTSD at some point. That's what happens when the alarm never learns the danger is past. One sound, one smell \u2014 and the fragment plays again, no date attached, like it just happened.",
+   "shot": "S15",
+   "t0": 0,
+   "t1": 484
+  },
+  {
+   "a": 5420,
+   "b": 5715,
+   "line": "A memory with no date is a memory with no ending. But Jake's brain has a way to deal with that too. And it involves a delete button. Stay.",
+   "shot": "S16",
+   "t0": 0,
+   "t1": 295
+  },
+  {
+   "a": 5715,
+   "b": 5867,
+   "line": "Jake found the button. His brain has one. And he's about to press it.",
+   "shot": "S17",
+   "t0": 0,
+   "t1": 152
+  },
+  {
+   "a": 5867,
+   "b": 6354,
+   "line": "In 2001, two researchers named Anderson and Green ran an experiment. People learned pairs of words. Then they were shown the first word \u2014 and told, for some of them, do NOT let the second word enter your mind. Block it. Stop it at the door.",
+   "shot": "S18",
+   "t0": 0,
+   "t1": 487
+  },
+  {
+   "a": 6354,
+   "b": 6920,
+   "line": "The people who practiced blocking a memory remembered it worse later. Not just a little worse. Worse than words they had simply left alone. And here's the part that matters: it still worked when the test used a completely different cue. The memory itself got weaker \u2014 not just one road to it.",
+   "shot": "S19",
+   "t0": 0,
+   "t1": 566
+  },
+  {
+   "a": 6920,
+   "b": 7365,
+   "line": "Brain scans showed how. When you suppress a memory, the control centre \u2014 the prefrontal cortex \u2014 lights up. And the memory centre \u2014 the hippocampus \u2014 goes quiet. One part of your brain is actively holding the other one down.",
+   "shot": "S20",
+   "t0": 0,
+   "t1": 445
+  },
+  {
+   "a": 7365,
+   "b": 7906,
+   "line": "But wait. Before you get excited \u2014 the effect is small. And other labs trying to repeat the experiment got mixed results. Some found it, some didn't. Your brain can push a memory down. It cannot vaporise it. The file is still in the cabinet. It's just harder to reach.",
+   "shot": "S21",
+   "t0": 0,
+   "t1": 541
+  },
+  {
+   "a": 7906,
+   "b": 8297,
+   "line": "So Jake can weaken the scary memory. But what if he could do something stranger? What if the memory isn't permanent at all? What if every time he remembers it, it opens up \u2014 and can be changed? Stay.",
+   "shot": "S22",
+   "t0": 0,
+   "t1": 391
+  },
+  {
+   "a": 8297,
+   "b": 8691,
+   "line": "Jake opened the file. And the file opened back. Because here's the secret nobody told you: a memory is not a photograph. It's a draft. And every time you read it, your brain has to save it again.",
+   "shot": "S23",
+   "t0": 0,
+   "t1": 394
+  },
+  {
+   "a": 8691,
+   "b": 9410,
+   "line": "In the year 2000, three scientists \u2014 Nader, Schafe, and LeDoux \u2014 did something that broke a hundred years of memory science. They taught rats to fear a tone. Then they played the tone, and right after, they blocked the rats' brains from making new proteins in the fear centre. The fear was gone. The rats remembered the tone. They just weren't scared of it anymore.",
+   "shot": "S24",
+   "t0": 0,
+   "t1": 719
+  },
+  {
+   "a": 9410,
+   "b": 9827,
+   "line": "The memory had become unstable the moment it was recalled. For a few hours, it was editable. Then the brain saved it again \u2014 and the new version was the one that stuck. The story stayed. The fear didn't.",
+   "shot": "S25",
+   "t0": 0,
+   "t1": 417
+  },
+  {
+   "a": 9827,
+   "b": 10231,
+   "line": "So here's a question for you. If you could open one memory and edit it \u2014 take the fear out, keep the facts \u2014 which one would you change? Drop it in the comments. Because scientists are already trying to do exactly that.",
+   "shot": "S26",
+   "t0": 0,
+   "t1": 404
+  },
+  {
+   "a": 10231,
+   "b": 10740,
+   "line": "One drug, propranolol \u2014 a blood pressure pill \u2014 given right before someone recalls a trauma, reduced PTSD symptoms in a clinical trial. It doesn't erase the memory. It turns down the alarm while the file is open. The facts stay. The panic goes.",
+   "shot": "S27",
+   "t0": 0,
+   "t1": 509
+  },
+  {
+   "a": 10740,
+   "b": 11128,
+   "line": "But hold on. If every memory is a draft that gets rewritten each time you open it \u2014 how do you know the memory you're reading is the original? You don't. And that's the next problem. Stay.",
+   "shot": "S28",
+   "t0": 0,
+   "t1": 388
+  },
+  {
+   "a": 11128,
+   "b": 11519,
+   "line": "Jake is telling the story of last night now. It was a dog. No wait \u2014 a cat. Actually, definitely a clown. On a bicycle. He's sure. He's never been more sure of anything in his life.",
+   "shot": "S29",
+   "t0": 0,
+   "t1": 391
+  },
+  {
+   "a": 11519,
+   "b": 11928,
+   "line": "Here's the thing about a draft that gets rewritten every time you open it: it drifts. Each time you remember something, your brain fills in the gaps with what feels right. And what feels right isn't always what happened.",
+   "shot": "S30",
+   "t0": 0,
+   "t1": 409
+  },
+  {
+   "a": 11928,
+   "b": 12370,
+   "line": "In 2014, researchers asked college students a simple question: do you believe traumatic memories are often buried and then recovered years later? Eight out of ten said yes. Eight out of ten. The belief is everywhere.",
+   "shot": "S31",
+   "t0": 0,
+   "t1": 442
+  },
+  {
+   "a": 12370,
+   "b": 13020,
+   "line": "The science says something else. There is no solid evidence that a traumatic event can be completely buried, hidden for decades, and then recovered perfectly intact. And the attempts to dig those memories out \u2014 in therapy, under hypnosis \u2014 created false memories in a lot of people. Real, vivid, detailed memories of things that never happened.",
+   "shot": "S32",
+   "t0": 0,
+   "t1": 650
+  },
+  {
+   "a": 13020,
+   "b": 13592,
+   "line": "This is not about doubting anyone's pain. Some people genuinely cannot recall a trauma \u2014 that condition is real, and it's rare, and scientists still argue about how it works. But the idea of a perfect memory, locked in a vault for twenty years and then recovered word for word? That one doesn't hold up.",
+   "shot": "S33",
+   "t0": 0,
+   "t1": 572
+  },
+  {
+   "a": 13592,
+   "b": 14008,
+   "line": "So Jake's memory of last night is a draft. And the draft has been edited. But here's the wildest part: your brain started deleting memories long before last night. It started before you could even talk. Stay.",
+   "shot": "S34",
+   "t0": 0,
+   "t1": 416
+  },
+  {
+   "a": 14008,
+   "b": 14344,
+   "line": "Jake cannot remember being a baby. Neither can you. Not your first birthday. Not your first steps. Not the first three years of your life. And you were there for all of it.",
+   "shot": "S35",
+   "t0": 0,
+   "t1": 336
+  },
+  {
+   "a": 14344,
+   "b": 14869,
+   "line": "Here's why. Your hippocampus \u2014 the filing clerk \u2014 isn't finished until you're about three or four. And while it's still growing, it keeps making new neurons. New neurons rewire the circuits. They push the old connections aside. The new growth overwrites the old files.",
+   "shot": "S36",
+   "t0": 0,
+   "t1": 525
+  },
+  {
+   "a": 14869,
+   "b": 15367,
+   "line": "Scientists call it childhood amnesia. And it has a strange detail: a two-and-a-half year old CAN remember something from six months ago. But ask the same child two years later, and it's gone. The memory was real. The brain just paved over it.",
+   "shot": "S37",
+   "t0": 0,
+   "t1": 498
+  },
+  {
+   "a": 15367,
+   "b": 15864,
+   "line": "Your brain deleted your first three years the same way it deletes the scariest moments. New growth. New files. Old ones pushed aside. It isn't a malfunction. It's how the system works. Forgetting is not the opposite of memory. It's part of it.",
+   "shot": "S38",
+   "t0": 0,
+   "t1": 497
+  },
+  {
+   "a": 15864,
+   "b": 16143,
+   "line": "So Jake's brain has been deleting things his whole life. The question is what it deleted last night \u2014 and why. Stay for the answer.",
+   "shot": "S39",
+   "t0": 0,
+   "t1": 279
+  },
+  {
+   "a": 16143,
+   "b": 16497,
+   "line": "Jake went back to sleep. He still doesn't remember last night. And maybe he never will. Not the whole thing. Just the fragments. A sound. A cold feeling. No date.",
+   "shot": "S40",
+   "t0": 0,
+   "t1": 354
+  },
+  {
+   "a": 16497,
+   "b": 17087,
+   "line": "Your brain deletes the scariest moments of your life to keep you going. Not because you're broken. Because you're not. The alarm records the danger. The filing clerk skips the date. The control centre pushes it down. And every time you open the file, it changes a little. That's not a flaw in the machine. That's the machine working.",
+   "shot": "S41",
+   "t0": 0,
+   "t1": 590
+  },
+  {
+   "a": 17087,
+   "b": 17524,
+   "line": "So \u2014 what did your brain delete? And what did it keep? Drop the scariest thing you can't remember in the comments. Jake's still looking for his. And if this video made you think about your own brain a little differently \u2014 you know what to do.",
+   "shot": "S42",
+   "t0": 0,
+   "t1": 437
+  },
+  {
+   "a": 17524,
+   "b": 17644,
+   "line": "",
+   "shot": "S43",
+   "t0": 0,
+   "t1": 120
+  }
+ ],
+ "shots": [
+  {
+   "first": 0,
+   "id": "S1",
+   "key": 79,
+   "len": 158,
+   "line": "Jake just had the worst night of his life. He remembers none of it. Not one second.",
+   "size": ""
+  },
+  {
+   "first": 158,
+   "id": "S2",
+   "key": 150,
+   "len": 300,
+   "line": "His heart is pounding like he ran a marathon in his sleep. His brain is screaming. And the memory? Gone. Deleted. Like it never happened.",
+   "size": ""
+  },
+  {
+   "first": 458,
+   "id": "S3",
+   "key": 171,
+   "len": 342,
+   "line": "That's not a bug. That's the feature. Your brain deletes the scariest moments of your life. On purpose. And tonight, you're going to find out why \u2014 and what it cost you.",
+   "size": ""
+  },
+  {
+   "first": 800,
+   "id": "S4",
+   "key": 163,
+   "len": 327,
+   "line": "But first \u2014 what's the scariest thing YOU can't remember? Think about it. Drop it in the comments. Because by the end of this video, you'll know exactly where it went.",
+   "size": ""
+  },
+  {
+   "first": 1127,
+   "id": "S5",
+   "key": 133,
+   "len": 266,
+   "line": "Jake made a decision this morning. He is not going to think about last night. Not one thought. Not a single one. This is going to go great.",
+   "size": ""
+  },
+  {
+   "first": 1393,
+   "id": "S6",
+   "key": 183,
+   "len": 367,
+   "line": "Here's the problem with that plan. Your brain has a security guard. And the guard's only job is to watch for the thing you're not supposed to think about. Which means the guard has to think about it. Constantly.",
+   "size": ""
+  },
+  {
+   "first": 1760,
+   "id": "S7",
+   "key": 214,
+   "len": 428,
+   "line": "In 1987, a psychologist named Daniel Wegner ran the simplest experiment ever. He asked people to talk out loud for five minutes and NOT think about a white bear. Every time the bear popped into their head, they rang a bell.",
+   "size": ""
+  },
+  {
+   "first": 2188,
+   "id": "S8",
+   "key": 154,
+   "len": 309,
+   "line": "They rang it constantly. About once a minute. Five minutes, no white bear? Impossible. The brain cannot follow that order. The order itself IS the thought.",
+   "size": ""
+  },
+  {
+   "first": 2497,
+   "id": "S9",
+   "key": 214,
+   "len": 428,
+   "line": "And here's the cruel part. When Wegner lifted the ban and said, okay, NOW you can think about the bear \u2014 the people who had been suppressing it thought about it MORE than the people who were never told to avoid it at all. The ban made it stronger.",
+   "size": ""
+  },
+  {
+   "first": 2925,
+   "id": "S10",
+   "key": 156,
+   "len": 312,
+   "line": "So trying not to think about the scary thing? That backfires. But Jake's brain has a second trick. And it's much stranger than a bear. Stay.",
+   "size": ""
+  },
+  {
+   "first": 3237,
+   "id": "S11",
+   "key": 154,
+   "len": 309,
+   "line": "Jake tried to remember last night. This is what he got. A sound. A cold feeling. No beginning. No end. No story. Just pieces.",
+   "size": ""
+  },
+  {
+   "first": 3546,
+   "id": "S12",
+   "key": 207,
+   "len": 415,
+   "line": "A normal memory gets filed like paperwork. When it happened. Where it happened. What happened next. Your brain stamps a date on it and puts it away. A traumatic memory skips the filing. It never gets a date.",
+   "size": ""
+  },
+  {
+   "first": 3961,
+   "id": "S13",
+   "key": 291,
+   "len": 582,
+   "line": "Here's why. When something terrifying happens, your brain floods with stress hormones. The alarm centre \u2014 the amygdala \u2014 fires at full power and records every sensory fragment in vivid detail. The filing clerk \u2014 the hippocampus \u2014 shuts down under the same hormones. It can't stamp the time or the place.",
+   "size": ""
+  },
+  {
+   "first": 4543,
+   "id": "S14",
+   "key": 196,
+   "len": 393,
+   "line": "So the fear gets saved in high definition. And the context gets saved nowhere. That's why a flashback doesn't feel like remembering. It feels like it's happening right now. The brain never wrote down that it was over.",
+   "size": ""
+  },
+  {
+   "first": 4936,
+   "id": "S15",
+   "key": 242,
+   "len": 484,
+   "line": "About six in every hundred adults in the US will live with PTSD at some point. That's what happens when the alarm never learns the danger is past. One sound, one smell \u2014 and the fragment plays again, no date attached, like it just happened.",
+   "size": ""
+  },
+  {
+   "first": 5420,
+   "id": "S16",
+   "key": 147,
+   "len": 295,
+   "line": "A memory with no date is a memory with no ending. But Jake's brain has a way to deal with that too. And it involves a delete button. Stay.",
+   "size": ""
+  },
+  {
+   "first": 5715,
+   "id": "S17",
+   "key": 76,
+   "len": 152,
+   "line": "Jake found the button. His brain has one. And he's about to press it.",
+   "size": ""
+  },
+  {
+   "first": 5867,
+   "id": "S18",
+   "key": 243,
+   "len": 487,
+   "line": "In 2001, two researchers named Anderson and Green ran an experiment. People learned pairs of words. Then they were shown the first word \u2014 and told, for some of them, do NOT let the second word enter your mind. Block it. Stop it at the door.",
+   "size": ""
+  },
+  {
+   "first": 6354,
+   "id": "S19",
+   "key": 283,
+   "len": 566,
+   "line": "The people who practiced blocking a memory remembered it worse later. Not just a little worse. Worse than words they had simply left alone. And here's the part that matters: it still worked when the test used a completely different cue. The memory itself got weaker \u2014 not just one road to it.",
+   "size": ""
+  },
+  {
+   "first": 6920,
+   "id": "S20",
+   "key": 222,
+   "len": 445,
+   "line": "Brain scans showed how. When you suppress a memory, the control centre \u2014 the prefrontal cortex \u2014 lights up. And the memory centre \u2014 the hippocampus \u2014 goes quiet. One part of your brain is actively holding the other one down.",
+   "size": ""
+  },
+  {
+   "first": 7365,
+   "id": "S21",
+   "key": 270,
+   "len": 541,
+   "line": "But wait. Before you get excited \u2014 the effect is small. And other labs trying to repeat the experiment got mixed results. Some found it, some didn't. Your brain can push a memory down. It cannot vaporise it. The file is still in the cabinet. It's just harder to reach.",
+   "size": ""
+  },
+  {
+   "first": 7906,
+   "id": "S22",
+   "key": 195,
+   "len": 391,
+   "line": "So Jake can weaken the scary memory. But what if he could do something stranger? What if the memory isn't permanent at all? What if every time he remembers it, it opens up \u2014 and can be changed? Stay.",
+   "size": ""
+  },
+  {
+   "first": 8297,
+   "id": "S23",
+   "key": 197,
+   "len": 394,
+   "line": "Jake opened the file. And the file opened back. Because here's the secret nobody told you: a memory is not a photograph. It's a draft. And every time you read it, your brain has to save it again.",
+   "size": ""
+  },
+  {
+   "first": 8691,
+   "id": "S24",
+   "key": 359,
+   "len": 719,
+   "line": "In the year 2000, three scientists \u2014 Nader, Schafe, and LeDoux \u2014 did something that broke a hundred years of memory science. They taught rats to fear a tone. Then they played the tone, and right after, they blocked the rats' brains from making new proteins in the fear centre. The fear was gone. The rats remembered the tone. They just weren't scared of it anymore.",
+   "size": ""
+  },
+  {
+   "first": 9410,
+   "id": "S25",
+   "key": 208,
+   "len": 417,
+   "line": "The memory had become unstable the moment it was recalled. For a few hours, it was editable. Then the brain saved it again \u2014 and the new version was the one that stuck. The story stayed. The fear didn't.",
+   "size": ""
+  },
+  {
+   "first": 9827,
+   "id": "S26",
+   "key": 202,
+   "len": 404,
+   "line": "So here's a question for you. If you could open one memory and edit it \u2014 take the fear out, keep the facts \u2014 which one would you change? Drop it in the comments. Because scientists are already trying to do exactly that.",
+   "size": ""
+  },
+  {
+   "first": 10231,
+   "id": "S27",
+   "key": 254,
+   "len": 509,
+   "line": "One drug, propranolol \u2014 a blood pressure pill \u2014 given right before someone recalls a trauma, reduced PTSD symptoms in a clinical trial. It doesn't erase the memory. It turns down the alarm while the file is open. The facts stay. The panic goes.",
+   "size": ""
+  },
+  {
+   "first": 10740,
+   "id": "S28",
+   "key": 194,
+   "len": 388,
+   "line": "But hold on. If every memory is a draft that gets rewritten each time you open it \u2014 how do you know the memory you're reading is the original? You don't. And that's the next problem. Stay.",
+   "size": ""
+  },
+  {
+   "first": 11128,
+   "id": "S29",
+   "key": 195,
+   "len": 391,
+   "line": "Jake is telling the story of last night now. It was a dog. No wait \u2014 a cat. Actually, definitely a clown. On a bicycle. He's sure. He's never been more sure of anything in his life.",
+   "size": ""
+  },
+  {
+   "first": 11519,
+   "id": "S30",
+   "key": 204,
+   "len": 409,
+   "line": "Here's the thing about a draft that gets rewritten every time you open it: it drifts. Each time you remember something, your brain fills in the gaps with what feels right. And what feels right isn't always what happened.",
+   "size": ""
+  },
+  {
+   "first": 11928,
+   "id": "S31",
+   "key": 221,
+   "len": 442,
+   "line": "In 2014, researchers asked college students a simple question: do you believe traumatic memories are often buried and then recovered years later? Eight out of ten said yes. Eight out of ten. The belief is everywhere.",
+   "size": ""
+  },
+  {
+   "first": 12370,
+   "id": "S32",
+   "key": 325,
+   "len": 650,
+   "line": "The science says something else. There is no solid evidence that a traumatic event can be completely buried, hidden for decades, and then recovered perfectly intact. And the attempts to dig those memories out \u2014 in therapy, under hypnosis \u2014 created false memories in a lot of people. Real, vivid, detailed memories of things that never happened.",
+   "size": ""
+  },
+  {
+   "first": 13020,
+   "id": "S33",
+   "key": 286,
+   "len": 572,
+   "line": "This is not about doubting anyone's pain. Some people genuinely cannot recall a trauma \u2014 that condition is real, and it's rare, and scientists still argue about how it works. But the idea of a perfect memory, locked in a vault for twenty years and then recovered word for word? That one doesn't hold up.",
+   "size": ""
+  },
+  {
+   "first": 13592,
+   "id": "S34",
+   "key": 208,
+   "len": 416,
+   "line": "So Jake's memory of last night is a draft. And the draft has been edited. But here's the wildest part: your brain started deleting memories long before last night. It started before you could even talk. Stay.",
+   "size": ""
+  },
+  {
+   "first": 14008,
+   "id": "S35",
+   "key": 168,
+   "len": 336,
+   "line": "Jake cannot remember being a baby. Neither can you. Not your first birthday. Not your first steps. Not the first three years of your life. And you were there for all of it.",
+   "size": ""
+  },
+  {
+   "first": 14344,
+   "id": "S36",
+   "key": 262,
+   "len": 525,
+   "line": "Here's why. Your hippocampus \u2014 the filing clerk \u2014 isn't finished until you're about three or four. And while it's still growing, it keeps making new neurons. New neurons rewire the circuits. They push the old connections aside. The new growth overwrites the old files.",
+   "size": ""
+  },
+  {
+   "first": 14869,
+   "id": "S37",
+   "key": 249,
+   "len": 498,
+   "line": "Scientists call it childhood amnesia. And it has a strange detail: a two-and-a-half year old CAN remember something from six months ago. But ask the same child two years later, and it's gone. The memory was real. The brain just paved over it.",
+   "size": ""
+  },
+  {
+   "first": 15367,
+   "id": "S38",
+   "key": 248,
+   "len": 497,
+   "line": "Your brain deleted your first three years the same way it deletes the scariest moments. New growth. New files. Old ones pushed aside. It isn't a malfunction. It's how the system works. Forgetting is not the opposite of memory. It's part of it.",
+   "size": ""
+  },
+  {
+   "first": 15864,
+   "id": "S39",
+   "key": 139,
+   "len": 279,
+   "line": "So Jake's brain has been deleting things his whole life. The question is what it deleted last night \u2014 and why. Stay for the answer.",
+   "size": ""
+  },
+  {
+   "first": 16143,
+   "id": "S40",
+   "key": 177,
+   "len": 354,
+   "line": "Jake went back to sleep. He still doesn't remember last night. And maybe he never will. Not the whole thing. Just the fragments. A sound. A cold feeling. No date.",
+   "size": ""
+  },
+  {
+   "first": 16497,
+   "id": "S41",
+   "key": 295,
+   "len": 590,
+   "line": "Your brain deletes the scariest moments of your life to keep you going. Not because you're broken. Because you're not. The alarm records the danger. The filing clerk skips the date. The control centre pushes it down. And every time you open the file, it changes a little. That's not a flaw in the machine. That's the machine working.",
+   "size": ""
+  },
+  {
+   "first": 17087,
+   "id": "S42",
+   "key": 218,
+   "len": 437,
+   "line": "So \u2014 what did your brain delete? And what did it keep? Drop the scariest thing you can't remember in the comments. Jake's still looking for his. And if this video made you think about your own brain a little differently \u2014 you know what to do.",
+   "size": ""
+  },
+  {
+   "first": 17524,
+   "id": "S43",
+   "key": 60,
+   "len": 120,
+   "line": "",
+   "size": ""
+  }
+ ],
+ "slug": "zenn-006",
+ "title": "WHY YOUR BRAIN DELETES THE SCARIEST MOMENTS OF YOUR LIFE",
+ "total": 17644
+}
