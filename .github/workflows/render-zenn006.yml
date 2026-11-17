@@ -40,7 +40,9 @@ jobs:
         run: npm ci
 
       - name: Render chunk ${{ matrix.chunk }} (frames ${{ matrix.start }}-${{ matrix.end }})
-        run: node scripts/render_frames_png.mjs zenn-006 ${{ matrix.start }} ${{ matrix.end }} out/zenn-006/chunk${{ matrix.chunk }}.mp4
+        run: |
+          mkdir -p ${{ runner.temp }}/bundle-tmp
+          node scripts/render_frames_png.mjs zenn-006 ${{ matrix.start }} ${{ matrix.end }} out/zenn-006/chunk${{ matrix.chunk }}.mp4
         env:
           TMPDIR: ${{ runner.temp }}/bundle-tmp
 
