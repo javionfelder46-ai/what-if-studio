@@ -4,20 +4,20 @@
 // word counts at video #3's measured pace (527s / 1,368 words = 0.385 s/word),
 // min 4s per beat. Audio sync comes later (George voiceover).
 //
-// LOOK (locked, rule book + script header): Detective + Jake are BLACK
-// SILHOUETTES — round solid black heads, black torsos/limbs, white oval eyes,
-// no ears, no nose, no mouth, no chin. Moonlight blue glow (#A9C6FF rim,
-// rimId="rimBlue") on the Detective (and Jake's edges) in EVERY scene — never
-// removed. Detective: slate-blue deerstalker (little bow on top stays) + slate
-// jacket + white shirt + dark tie. Jake: plain red shirt #C0392B, BALD, NO
-// glasses (removed Nov 14 — brows/eyes carry the expression now). Accent:
-// lime green #A3E635 — sparse highlight on the focal element ONLY (the clock
-// digits here). Never on characters/glow. THE DETECTIVE IS NEVER A HOST
-// (Nov 15, Javion: "he's suppose to be in the background he pops up giving
-// information when time is needed") — he lives in the background and POPS UP
-// to give information when needed: small, at the edge of the frame, a cameo,
-// never front and center, never facing the camera as the main subject. Jake
-// lives the story.
+// LOOK (locked, rule book + script header): Jake is a BLACK SILHOUETTE —
+// round solid black head, black torso/limbs, white oval eyes, no ears, no
+// nose, no mouth, no chin. Moonlight blue glow (#A9C6FF rim,
+// rimId="rimBlue") on Jake's edges in EVERY scene — never removed. Jake:
+// plain red shirt #C0392B, BALD, NO glasses (removed Nov 14 — brows/eyes
+// carry the expression now). Accent: lime green #A3E635 — sparse highlight
+// on the focal element ONLY (the clock digits here). Never on
+// characters/glow.
+//
+// MAIN CAST = 1 (Nov 17, Javion: "having 2 is a bit annoying" — get rid of
+// the Detective). Jake ("you") is the SOLE main character. The Detective was
+// removed from every scene in this file Nov 17 — no cameos, no pop-ups, no
+// narration framing. Jake carries every scene alone. Do NOT add any new
+// character.
 //
 // STYLE LOCK (Nov 14): the FUSION CUTAWAY sample is the ONLY style — small
 // round heads, thin stick limbs, slate coat, deerstalker with bow, moonlight
@@ -41,7 +41,7 @@
 import React from 'react';
 import {
   Hero, basePose, poseAt, faceAt, kf, camT, lerp, clamp, LOOKS,
-  FONT, MOONLIGHT, ShotProps, joints, toWorld, Magnifier,
+  FONT, MOONLIGHT, ShotProps, joints, toWorld,
   RealDefs, WindowShaft, AtmoHaze, Vignette, GlowDisc, SoftShadow, Dust,
 } from '../../engine';
 import {
@@ -704,7 +704,7 @@ export const WordCard: React.FC<{ cx: number; cy: number; sx: number; sy: number
 );
 
 // S20 — "Inside Jake's head: a control room." Two one-off supporting
-// silhouettes (NOT Jake or Detective), drawn inline like the Bear: the
+// silhouettes (neither is Jake), drawn inline like the Bear: the
 // prefrontal-cortex operator (flat cap, teal shirt) at the switchboard on the
 // LEFT pulls a lever down; the hippocampus librarian (glasses, bun,
 // burgundy shirt) at her desk on the RIGHT dims her lamp.
@@ -1617,7 +1617,7 @@ const DayRoom: React.FC = () => (
 // ---------------------------------------------------------------------------
 // Chapter 4 shared bits (S23-S28): the quiet room + desk + folder.
 // One set shared by all six scenes. Jake stands beside the desk (x=880)
-// facing the folder on it. The Detective never appears here. No mouths.
+// facing the folder on it. No mouths.
 // Lime is never used: the folder's glow is a soft warm/white glow, not lime.
 // ---------------------------------------------------------------------------
 
@@ -2375,38 +2375,26 @@ const Confetti: React.FC<{ f: number; len: number }> = ({ f, len }) => {
   );
 };
 
-// Shared seated pair for the StoryTable scenes — Jake left (scale 1), the
-// Detective across the table right (scale 0.5, listening). Both seated, so
-// shadow={0} plus foot contact shadows from joints().
-// PROFILE (Nov 15, Javion — same twist as S1): the Detective faces LEFT
-// toward Jake, so he is full profile (yaw -1) — at three-quarter (-0.65) the
-// rig points his seated legs RIGHT, away from Jake, while his torso faces
-// left. A seated character's torso, head and legs must all face the same way.
+// Shared seated Jake for the StoryTable scenes — Jake left (scale 1), seated
+// at the table alone, telling his story to the camera. Seated, so shadow={0}
+// plus foot contact shadows from joints().
+// (Nov 17: a second character used to sit across the table as the listener;
+// he is gone — Jake is alone at the table now, facing the camera/right,
+// telling the story to the viewer.)
 
-const tablePair = (scene: string, f: number, len: number, jakeKeys: { f: number; p: Partial<typeof basePose> }[], jakeExpr: 'neutral' | 'shock' | 'oops', detExpr: 'neutral' | 'smug', detArmR?: { a: number; b: number }) => {
+const tablePair = (scene: string, f: number, len: number, jakeKeys: { f: number; p: Partial<typeof basePose> }[], jakeExpr: 'neutral' | 'shock' | 'oops') => {
   const pj = pose(scene, 'jake', f, jakeKeys);
   const faceJ = faceAt(f, [[0, jakeExpr]]);
   const jj = joints(pj, true);
   const footJL = { x: pj.x + jj.legL.end.x, y: pj.y + jj.legL.end.y + 11 };
   const footJR = { x: pj.x + jj.legR.end.x, y: pj.y + jj.legR.end.y + 11 };
-  const detPose = (armR: { a: number; b: number } | undefined) => ({ ...basePose, x: 1300, y: sitY(FLOOR_PX, 0.5), scale: 0.5, ...SIT, ...(armR ? { armR } : {}), expr: detExpr, yaw: -1, look: -0.5 });
-  const pd = pose(scene, 'detective', f, [
-    { f: 0, p: detPose(detArmR) },
-    { f: len, p: detPose(detArmR) },
-  ]);
-  const faceD = faceAt(f, [[0, detExpr]]);
-  const jd = joints(pd, true);
-  const footDL = { x: pd.x + jd.legL.end.x, y: pd.y + jd.legL.end.y + 11 };
-  const footDR = { x: pd.x + jd.legR.end.x, y: pd.y + jd.legR.end.y + 11 };
-  return { pj, faceJ, footJL, footJR, pd, faceD, footDL, footDR };
+  return { pj, faceJ, footJL, footJR };
 };
 
-const tableShadows = (footJL: { x: number; y: number }, footJR: { x: number; y: number }, footDL: { x: number; y: number }, footDR: { x: number; y: number }) => (
+const tableShadows = (footJL: { x: number; y: number }, footJR: { x: number; y: number }) => (
   <g>
     <ellipse cx={footJL.x} cy={footJL.y + 2} rx={20} ry={6} fill="#000" opacity={0.35} />
     <ellipse cx={footJR.x} cy={footJR.y + 2} rx={20} ry={6} fill="#000" opacity={0.35} />
-    <ellipse cx={footDL.x} cy={footDL.y + 2} rx={12} ry={4} fill="#000" opacity={0.35} />
-    <ellipse cx={footDR.x} cy={footDR.y + 2} rx={12} ry={4} fill="#000" opacity={0.35} />
   </g>
 );
 
@@ -3045,21 +3033,15 @@ defineScene({
   },
 });
 
-// S4 — Jake looks at the empty thought bubble. The Detective points at it.
-// Camera: slow push-in on Jake. Jake seated on the bed edge, head tilted back
-// (headTilt -6, the look-up convention) toward the bubble, 'scared'. The
-// Detective is a background pop-up at the RIGHT edge, beside the door — he
-// can NOT stand at the far-left edge: the nightstand clock sits directly
-// up-right of that spot, so a point toward the bubble lands on the clock
-// (caught in the still check, Nov 15). He points up-LEFT at the bubble with
-// his left arm (armL {a:120, b:10}, handL 'point'). Small (scale 0.5), never
-// the subject. No magnifier — he is pointing, not examining.
+// S4 — Jake looks at the empty thought bubble. Camera: slow push-in on
+// Jake. Jake seated on the bed edge, head tilted back (headTilt -6, the
+// look-up convention) toward the bubble, 'scared'. The bubble is empty —
+// nobody points at it. Jake alone carries the beat.
 defineScene({
   id: 'S4',
   durationSec: DUR.S4,
   characters: [
     { who: 'jake', x: 0.5, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.78, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
@@ -3073,15 +3055,6 @@ defineScene({
     const jj = joints(pj, true);
     const footL = { x: pj.x + jj.legL.end.x, y: pj.y + jj.legL.end.y + 11 };
     const footR = { x: pj.x + jj.legR.end.x, y: pj.y + jj.legR.end.y + 11 };
-    // Detective — background pop-up, half size, at the RIGHT edge beside the
-    // door (x=1500, in the wall gap between the bed's right end and the
-    // door), pointing up-LEFT at the bubble with his left arm. STANDING, so
-    // shadow={1} is correct.
-    const pd = pose('S4', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 1500, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, armL: { a: 120, b: 10 }, handL: 'point', headTilt: -6, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 1500, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, armL: { a: 120, b: 10 }, handL: 'point', headTilt: -6, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     const zoom = kf(f, [[0, 1.0], [len, 1.12]]);
     return (
       <g>
@@ -3093,7 +3066,6 @@ defineScene({
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={0} />)}
           {/* sweat drop beside Jake's head (same as S1/S2) */}
           <path d="M 1012 556 Q 1022 570 1012 578 Q 1002 570 1012 556 Z" fill="#8FD3FF" stroke="#161616" strokeWidth={2} />
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
         </g>
       </g>
     );
@@ -3104,30 +3076,20 @@ defineScene({
 // CHAPTER 1
 // ===========================================================================
 
-// S3 — "That's not a bug. That's the feature." The Detective POPS UP in the
-// BACKGROUND to give the information — he is NEVER a host (Nov 15, Javion:
-// "he's suppose to be in the background he pops up giving information when
-// time is needed"). Jake stays the focus: same cold-open bedroom, same bolt-
-// upright scared pose as S1. The Detective is SMALL (scale 0.5, about half
-// Jake's size), tucked into the far-left dark corner at x=95 — at the edge of
-// the frame, in shadow, moonlight rim only. NOT behind the door frame (that's
-// S42's spot in the close). Magnifying glass raised in his right hand, BRASS
-// rim (the lime rim was wrong — a magnifying glass is a real tool, its rim is
-// brass, not the accent). Camera: HOLD STILL (no push-in — the script says
-// hold). Arm from the video #3 magnifier pose (armR {a:100, b:45}); the lens
-// sits up beside the head at eye level.
+// S3 — "That's not a bug. That's the feature." Jake stays the focus: same
+// cold-open bedroom, same bolt-upright scared pose as S1. Camera: HOLD STILL
+// (no push-in — the script says hold). Jake alone in the room.
 defineScene({
   id: 'S3',
   durationSec: DUR.S3,
   characters: [
     { who: 'jake', x: 0.5, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.05, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
     // Jake — same as S1: bolt upright on the bed edge, scared, sweat drop.
-    // He is the focus; the Detective is a background pop-up.
+    // He is the focus; he carries the scene alone.
     const pj = pose('S3', 'jake', f, [
       { f: 0, p: { ...basePose, x: 960, y: sitY(FLOOR_PX), scale: 1, ...SIT_FRONT, expr: 'scared' } },
       { f: len, p: { ...basePose, x: 960, y: sitY(FLOOR_PX), scale: 1, ...SIT_FRONT, expr: 'scared' } },
@@ -3136,13 +3098,6 @@ defineScene({
     const jj = joints(pj, true);
     const footL = { x: pj.x + jj.legL.end.x, y: pj.y + jj.legL.end.y + 11 };
     const footR = { x: pj.x + jj.legR.end.x, y: pj.y + jj.legR.end.y + 11 };
-    // Detective — background pop-up, half size, far-left dark corner.
-    const pd = pose('S3', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 95, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 100, b: 45 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 95, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 100, b: 45 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
-    const mg = toWorld(pd, joints(pd, true).armR.end);
     return (
       <g>
         <g transform={camT(960, 560, 1.0)}>
@@ -3153,11 +3108,6 @@ defineScene({
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={0} />)}
           {/* sweat drop beside Jake's head (same as S1) */}
           <path d="M 1012 556 Q 1022 570 1012 578 Q 1002 570 1012 556 Z" fill="#8FD3FF" stroke="#161616" strokeWidth={2} />
-          {/* Detective pop-up — drawn AFTER Jake so he sits on top of the room,
-              but he is SMALL and at the edge: a background cameo, never the
-              subject. STANDING, so shadow={1} is correct (it scales with pose). */}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
-          <Magnifier x={mg.x} y={mg.y} s={0.5} />
         </g>
       </g>
     );
@@ -3179,7 +3129,6 @@ defineScene({
   characters: [
     { who: 'jake', x: 0.33, feetY: ROOM_FLOOR_V },
     { who: 'bear', x: 0.68, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.17, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
@@ -3193,34 +3142,10 @@ defineScene({
     const j = joints(p, true);
     const footL = { x: p.x + j.legL.end.x, y: p.y + j.legL.end.y + 11 };
     const footR = { x: p.x + j.legR.end.x, y: p.y + j.legR.end.y + 11 };
-    // Detective — HIDDEN background cameo (sample for Javion, Nov 15): he
-    // peeks from behind the fridge's right edge — only about half his head +
-    // one shoulder showing. He is NOT delivering a line here, just watching.
-    // Arms hang at his sides; NO magnifier raised (he's not examining
-    // anything, just peeking). Drawn after the set; a fridge-coloured
-    // occluder slice (x 290-330) hides his left half so he reads as BEHIND
-    // the fridge, not standing beside it.
-    const pd = pose('S5', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 330, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 4, b: 8 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 330, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 4, b: 8 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     return (
       <g>
         <g transform={camT(960, 560, zoom)}>
           <MorningKitchen t={f} />
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
-          {/* fridge-edge occluder: hides the Detective's left half so he reads
-              as behind the fridge. Fridge fill to the baseboard, then baseboard
-              cream, then floor wood over his hidden left foot; the fridge's
-              right edge stroke and the baseboard seams are re-drawn so the
-              seam stays clean. */}
-          <rect x={290} y={320} width={40} height={532} fill="#EDE8DE" />
-          <rect x={290} y={852} width={40} height={24} fill="#F6EFE3" />
-          <line x1={290} y1={852} x2={330} y2={852} stroke="#C9BFA8" strokeWidth={2} />
-          <line x1={290} y1={876} x2={330} y2={876} stroke="#C9BFA8" strokeWidth={2} />
-          <rect x={290} y={876} width={40} height={30} fill="#7A5A3A" />
-          <line x1={330} y1={320} x2={330} y2={876} stroke="#B8B2A4" strokeWidth={4} />
           {cast('bear', <Bear x={1300} hipY={sitY(FLOOR_PX)} />)}
           <ellipse cx={footL.x} cy={footL.y + 2} rx={20} ry={6} fill="#000" opacity={0.35} />
           <ellipse cx={footR.x} cy={footR.y + 2} rx={20} ry={6} fill="#000" opacity={0.35} />
@@ -3251,8 +3176,7 @@ defineScene({
     ]);
     const face = faceAt(f, [[0, 'determined']]);
     const zoom = kf(f, [[0, 1.0], [len, 1.12]]);
-    // NO Detective in S17 (Javion, Nov 15): the script is just Jake and the
-    // button — a tense moment, no cameo. He was here as a pop-up; removed.
+    // S17: the script is just Jake and the button — a tense moment, no cameo.
     return (
       <g>
         <g transform={camT(960, 560, zoom)}>
@@ -3531,31 +3455,23 @@ defineScene({
   },
 });
 
-// S12 — The filing cabinet, center-left. The Detective is SMALL (scale 0.5),
-// at the frame's left edge beside the cabinet — a background pop-up, never
-// the subject — his right arm extended to the open bottom drawer. The open
-// drawer shows folders with date labels ("2019", "2021", "2023") and ONE
-// blank folder sliding half-out to the right. No magnifier: his arm is busy
-// opening the drawer. Camera: gentle pan right.
+// S12 — The filing cabinet, center-left. The open drawer shows folders with
+// date labels ("2019", "2021", "2023") and ONE blank folder sliding half-out
+// to the right. No characters — the cabinet and the blank folder carry the
+// beat. Camera: gentle pan right.
 defineScene({
   id: 'S12',
   durationSec: DUR.S12,
-  characters: [{ who: 'detective', x: 0.245, feetY: ROOM_FLOOR_V }],
+  characters: [],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const pd = pose('S12', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 470, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 70, b: 0 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug', yaw: 0.65 } },
-      { f: len, p: { ...basePose, x: 470, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 70, b: 0 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug', yaw: 0.65 } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     const cx = kf(f, [[0, 940], [len, 1000]]);
     return (
       <g>
         <g transform={camT(cx, 560, 1.0)}>
           <RecordsRoom />
           <FilingCabinet open={true} />
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
         </g>
       </g>
     );
@@ -3659,28 +3575,21 @@ defineScene({
   },
 });
 
-// S16 — The Detective closes the drawer. Same cabinet set as S12, drawer shut
-// flush — and the blank folder slides out again, half-out to the right. The
-// Detective is small, at the edge, arm pushing the drawer shut; his face
-// flips to 'oops' mid-scene as the folder comes back out. Camera: hold still.
+// S16 — The drawer shuts flush on its own — and the blank folder slides out
+// again, half-out to the right, by itself. Same cabinet set as S12. No
+// characters — the drawer and the folder carry the beat. Camera: hold still.
 defineScene({
   id: 'S16',
   durationSec: DUR.S16,
-  characters: [{ who: 'detective', x: 0.245, feetY: ROOM_FLOOR_V }],
+  characters: [],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const pd = pose('S16', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 470, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 55, b: 0 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug', yaw: 0.65 } },
-      { f: len, p: { ...basePose, x: 470, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 55, b: 0 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug', yaw: 0.65 } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug'], [150, 'oops']]);
     return (
       <g>
         <g transform={camT(960, 560, 1.0)}>
           <RecordsRoom />
           <FilingCabinet open={false} />
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
         </g>
       </g>
     );
@@ -3746,7 +3655,7 @@ defineScene({
 // S20 — "Inside Jake's head: a control room. The prefrontal cortex — a
 // switchboard operator — pulls a lever down. The hippocampus — a librarian —
 // dims its lamp. Camera: gentle pan right." Two one-off supporting
-// silhouettes (NOT Jake or Detective): the operator pulls the middle lever
+// silhouettes (neither is Jake): the operator pulls the middle lever
 // down over frames 150->210 (his arm follows the knob), the librarian dims
 // her lamp (glow 0.55->0.08 over frames 200->260). Camera pans right
 // (centre x 960 -> 1060).
@@ -3799,18 +3708,15 @@ defineScene({
   },
 });
 
-// S22 — "The Detective holds up a finger. Jake stops pressing. Camera: hold
-// still." Jake lowers his arm from the press pose to his side over the first
-// 60 frames, then holds. The Detective is a background pop-up at the far-left
-// edge (scale 0.5, x=150, standing, shadow={1}), right arm raised high with
-// a pointing hand — one finger held up. No magnifier here: the finger is the
-// point. Jake stays the focus; the Detective is small and at the edge.
+// S22 — Jake stops pressing. The button resists — he hesitates and pulls his
+// arm back on his own. Camera: hold still. Jake lowers his arm from the press
+// pose to his side over the first 60 frames, then holds. Jake alone is the
+// focus.
 defineScene({
   id: 'S22',
   durationSec: DUR.S22,
   characters: [
     { who: 'jake', x: 0.52, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.08, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api); const len = Math.round(api.duration * api.fps);
@@ -3820,15 +3726,9 @@ defineScene({
       { f: len, p: { ...basePose, x: 1000, y: standY(1, ROOM_FLOOR_V), scale: 1, armL: { a: 4, b: 8 }, armR: { a: 4, b: 8 }, handR: 'point', legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0.5, headTilt: 0, tilt: 0, expr: 'neutral', yaw: 0.65 } },
     ]);
     const face = faceAt(f, [[0, 'neutral']]);
-    const pd = pose('S22', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 150, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 150, b: 10 }, handR: 'point', legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 150, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 150, b: 10 }, handR: 'point', legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     return (<g><g transform={camT(960, 560, 1.0)}>
       <DeleteStage t={f} />
       {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...p, ...face, facing: 1 }} rimId="rimBlue" shadow={1} />)}
-      {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
     </g></g>);
   },
 });
@@ -4075,25 +3975,24 @@ defineScene({
 // CHAPTER 5 — "The Memory That Never Happened"
 // ===========================================================================
 
-// S29 — Jake sits at the table telling the Detective a story. Behind him the
-// background changes in three phases: a dog, then a cat, then a clown on a
-// bicycle. Jake never notices — he faces the Detective the whole time.
-// Camera: gentle pan right (centre 900 → 1020).
+// S29 — Jake sits at the table telling a story to the camera — alone.
+// Behind him the background changes in three phases: a dog, then a cat, then
+// a clown on a bicycle. Jake never notices — he faces the camera the whole
+// time. Camera: gentle pan right (centre 900 → 1020).
 defineScene({
   id: 'S29',
   durationSec: DUR.S29,
   characters: [
     { who: 'jake', x: 0.33, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.68, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const { pj, faceJ, footJL, footJR, pd, faceD, footDL, footDR } = tablePair('S29', f, len, [
+    const { pj, faceJ, footJL, footJR } = tablePair('S29', f, len, [
       { f: 0, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 4, b: 8 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
       { f: 30, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 55, b: 25 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
       { f: len, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 55, b: 25 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
-    ], 'neutral', 'neutral');
+    ], 'neutral');
     const dogOp = kf(f, [[0, 1], [108, 1], [127, 0]]);
     const catOp = kf(f, [[108, 0], [127, 1], [236, 1], [255, 0]]);
     const clownOp = kf(f, [[236, 0], [255, 1], [len, 1]]);
@@ -4106,36 +4005,36 @@ defineScene({
           <Cat x={CAT_X} y={ANIMAL_Y} s={2.4} f={f} len={len} wave={false} opacity={catOp} />
           <ClownBike x={CLOWN_X} y={ANIMAL_Y} s={2.2} f={f} len={len} wave={false} opacity={clownOp} />
           <StoryTableFront />
-          {tableShadows(footJL, footJR, footDL, footDR)}
+          {tableShadows(footJL, footJR)}
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={0} />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: -1 }} rimId="rimBlue" shadow={0} />)}
         </g>
       </g>
     );
   },
 });
 
-// S30 — The Detective holds up a hand mirror (brass oval frame). In it, Jake
+// S30 — Jake holds up a hand mirror himself (brass oval frame). In it, he
 // sees HIMSELF telling a different version of the same story: a miniature
 // Jake, facing the other way, his other arm raised high. That reflection is
 // the ONLY character-copy in the video. Jake looks into the mirror, shocked.
-// Camera: hold still.
+// His right arm raises the mirror over the first 30 frames. Camera: hold
+// still.
 defineScene({
   id: 'S30',
   durationSec: DUR.S30,
   characters: [
     { who: 'jake', x: 0.33, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.68, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const { pj, faceJ, footJL, footJR, pd, faceD, footDL, footDR } = tablePair('S30', f, len, [
+    const { pj, faceJ, footJL, footJR } = tablePair('S30', f, len, [
       { f: 0, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 4, b: 8 }, expr: 'shock', yaw: 0.65, look: 0.5 } },
       { f: 30, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 45, b: 10 }, expr: 'shock', yaw: 0.65, look: 0.5 } },
       { f: len, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 45, b: 10 }, expr: 'shock', yaw: 0.65, look: 0.5 } },
-    ], 'shock', 'smug', { a: 100, b: 45 });
-    const mg = toWorld(pd, joints(pd, true).armR.end);
+    ], 'shock');
+    // The mirror is held up by Jake's own raised right hand.
+    const mg = toWorld(pj, joints(pj, true).armR.end);
     const mcx = mg.x;
     const mcy = mg.y - 118;
     return (
@@ -4143,9 +4042,8 @@ defineScene({
         <g transform={camT(960, 560, 1.0)}>
           <StoryTableBack />
           <StoryTableFront />
-          {tableShadows(footJL, footJR, footDL, footDR)}
+          {tableShadows(footJL, footJR)}
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={0} />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: -1 }} rimId="rimBlue" shadow={0} />)}
           <defs>
             <clipPath id="s30MirrorClip">
               <ellipse cx={mcx} cy={mcy} rx={76} ry={100} />
@@ -4202,25 +4100,18 @@ defineScene({
   },
 });
 
-// S32 — The Detective (small, at the classroom's left edge) shakes his head.
-// The survey forms turn into confetti: the papers fade out over 35 frames
-// while coloured paper pieces drift down through the air. Camera: hold still.
+// S32 — The survey forms turn into confetti: the papers fade out over 35
+// frames while coloured paper pieces drift down through the air. The classroom
+// plays with the students alone. Camera: hold still.
 defineScene({
   id: 'S32',
   durationSec: DUR.S32,
   characters: [
     { who: 'students', x: 0.5, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.06, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const pd = pose('S32', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 120, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 120, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
-    const shake = kf(f, [[0, 0], [40, -7], [80, 7], [120, -7], [160, 7], [200, 0], [len, 0]]);
     const papersOp = kf(f, [[0, 1], [60, 1], [95, 0]]);
     return (
       <g>
@@ -4230,7 +4121,6 @@ defineScene({
           <ClassroomDesks />
           <SurveyPapers opacity={papersOp} />
           <Confetti f={f} len={len} />
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1, headTilt: shake }} rimId="rimBlue" shadow={1} />)}
         </g>
       </g>
     );
@@ -4245,16 +4135,15 @@ defineScene({
   durationSec: DUR.S33,
   characters: [
     { who: 'jake', x: 0.33, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.68, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const { pj, faceJ, footJL, footJR, pd, faceD, footDL, footDR } = tablePair('S33', f, len, [
+    const { pj, faceJ, footJL, footJR } = tablePair('S33', f, len, [
       { f: 0, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 4, b: 8 }, expr: 'oops', yaw: 0.65, look: 0.5 } },
       { f: 30, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 120, b: 30 }, expr: 'oops', yaw: 0.65, look: 0.5 } },
       { f: len, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 120, b: 30 }, expr: 'oops', yaw: 0.65, look: 0.5 } },
-    ], 'oops', 'smug');
+    ], 'oops');
     return (
       <g>
         <g transform={camT(960, 560, 1.0)}>
@@ -4263,9 +4152,8 @@ defineScene({
           <Cat x={CAT_X} y={ANIMAL_Y} s={2.4} f={f} len={len} wave={true} opacity={1} />
           <ClownBike x={CLOWN_X} y={ANIMAL_Y} s={2.2} f={f} len={len} wave={true} opacity={1} />
           <StoryTableFront />
-          {tableShadows(footJL, footJR, footDL, footDR)}
+          {tableShadows(footJL, footJR)}
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={0} />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: -1 }} rimId="rimBlue" shadow={0} />)}
         </g>
       </g>
     );
@@ -4280,16 +4168,15 @@ defineScene({
   durationSec: DUR.S34,
   characters: [
     { who: 'jake', x: 0.33, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.68, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    const { pj, faceJ, footJL, footJR, pd, faceD, footDL, footDR } = tablePair('S34', f, len, [
+    const { pj, faceJ, footJL, footJR } = tablePair('S34', f, len, [
       { f: 0, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 4, b: 8 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
       { f: 30, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 70, b: 0 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
       { f: len, p: { ...basePose, x: 640, y: sitY(FLOOR_PX), scale: 1, ...SIT, armR: { a: 70, b: 0 }, expr: 'neutral', yaw: 0.65, look: 0.5 } },
-    ], 'neutral', 'smug');
+    ], 'neutral');
     const clownOp = kf(f, [[0, 1], [45, 1], [75, 0]]);
     const nod = kf(f, [[0, 0], [90, 0], [125, 9], [160, 0], [195, 9], [230, 0], [len, 0]]);
     const zoom = kf(f, [[0, 1.0], [len, 1.12]]);
@@ -4301,9 +4188,8 @@ defineScene({
           <Cat x={CAT_X} y={ANIMAL_Y} s={2.4} f={f} len={len} wave={false} opacity={1} />
           <ClownBike x={CLOWN_X} y={ANIMAL_Y} s={2.2} f={f} len={len} wave={false} opacity={clownOp} />
           <StoryTableFront />
-          {tableShadows(footJL, footJR, footDL, footDR)}
+          {tableShadows(footJL, footJR)}
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...pj, ...faceJ, facing: 1, headTilt: nod }} rimId="rimBlue" shadow={0} />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: -1 }} rimId="rimBlue" shadow={0} />)}
         </g>
       </g>
     );
@@ -4420,15 +4306,13 @@ defineScene({
   },
 });
 
-// S39 — The album again, both pages blank. The Detective stands at Jake's
-// side, small (scale 0.5), also looking down at the blank pages. No
-// magnifier — he is not examining anything, just standing with Jake.
+// S39 — The album again, both pages blank. Jake stands alone, looking down
+// at the blank pages, 'sad'. No one stands beside him.
 defineScene({
   id: 'S39',
   durationSec: DUR.S39,
   characters: [
     { who: 'jake', x: 0.15, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.23, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
@@ -4438,17 +4322,11 @@ defineScene({
       { f: len, p: { ...basePose, x: 280, y: standY(1, ROOM_FLOOR_V), scale: 1, ...STAND, expr: 'sad', yaw: 0.5, headTilt: 6 } },
     ]);
     const faceJ = faceAt(f, [[0, 'sad']]);
-    const pd = pose('S39', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 450, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'neutral', yaw: 0.5, headTilt: 6 } },
-      { f: len, p: { ...basePose, x: 450, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'neutral', yaw: 0.5, headTilt: 6 } },
-    ]);
-    const faceD = faceAt(f, [[0, 'neutral']]);
     return (
       <g>
         <g transform={camT(960, 560, 1.0)}>
           <AlbumRoom blankSpread />
           {cast('jake', <Hero slim look={LOOKS.jake} pose={{ ...p, ...faceJ, facing: 1 }} rimId="rimBlue" shadow={1} />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
         </g>
       </g>
     );
@@ -4505,31 +4383,20 @@ defineScene({
   },
 });
 
-// S41 — "The Detective faces camera. The empty thought bubble from the cold
+// S41 — Jake lies asleep in bed. The empty thought bubble from the cold
 // open appears beside him — and this time, a small lime-green sprout grows
-// inside it. Camera: hold still." STAGING NOTE: the script's "faces camera"
-// is staged as a background pop-up per the standing rule (Nov 15, Javion —
-// the Detective is NEVER a host): he faces forward as the S3/S17 pop-ups do,
-// but he is small and at the edge, and the THOUGHT BUBBLE + SPROUT is the
-// focal element. Jake lies asleep in bed in the background, drawn as a simple
+// inside it. Camera: hold still. The THOUGHT BUBBLE + SPROUT is the focal
+// element. Jake lies asleep in bed in the background, drawn as a simple
 // inline silhouette (the rig has no lying pose — NO Hero for sleeping Jake).
 defineScene({
   id: 'S41',
   durationSec: DUR.S41,
   characters: [
     { who: 'jake', x: 0.32, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.08, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    // Detective — background pop-up at the far-left edge, half size, arms at
-    // his sides, 'smug'. STANDING, so shadow={1}.
-    const pd = pose('S41', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 150, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 4, b: 8 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 150, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, armL: { a: 4, b: 8 }, armR: { a: 4, b: 8 }, legL: { a: 0, b: 0 }, legR: { a: 0, b: 0 }, look: 0, headTilt: 0, tilt: 0, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     // The sprout grows from nothing to full over the first 30 frames (>=15),
     // then holds for the rest of the 19.2s scene.
     const sprout = kf(f, [[0, 0], [30, 1]]);
@@ -4548,11 +4415,9 @@ defineScene({
           {/* Sleeping Jake — the shared LyingJake drawing (same as S40/S42,
               so Jake never jumps between cuts). */}
           {cast('jake', <LyingJake />)}
-          {/* Detective pop-up — drawn after the set, small and at the edge. */}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
           {/* The thought bubble — the focal element, centre-right of frame.
               Dark under-layer (scaled 1.045) + cream cloud on top, then two
-              small trailing circles drifting down-left toward the Detective. */}
+              small trailing circles drifting down-left toward sleeping Jake. */}
           <g transform={`translate(${BUBBLE_CX} ${BUBBLE_CY}) scale(1.045) translate(${-BUBBLE_CX} ${-BUBBLE_CY})`}>
             <CloudShape fill="#161616" />
           </g>
@@ -4572,47 +4437,23 @@ defineScene({
   },
 });
 
-// S42 — Jake sleeps peacefully. The Detective sneaks into the background,
-// behind the door frame, in shadow. Camera: slow pull back.
-// Same lying-Jake drawing as S40/S41. The Detective (scale 0.5, arms at his
-// sides, no magnifier — he is sneaking, not examining) stands straddling the
-// door's left edge (centre x=1565); the door itself is then re-drawn over
-// his right two-thirds (x1560-1640, door fill + panel + edge stroke) so he
-// reads as BEHIND the door, only a sliver of hat, head and shoulder peeking
-// out past its left edge — the same occluder trick S5 uses for the fridge.
-// A translucent dark patch over the peeking zone puts him in shadow.
+// S42 — Jake sleeps peacefully. Camera: slow pull back.
+// Same lying-Jake drawing as S40/S41. Jake alone in the room.
 defineScene({
   id: 'S42',
   durationSec: DUR.S42,
   characters: [
     { who: 'jake', x: 0.32, feetY: ROOM_FLOOR_V },
-    { who: 'detective', x: 0.82, feetY: ROOM_FLOOR_V },
   ],
   fn: (api) => {
     const f = F(api);
     const len = Math.round(api.duration * api.fps);
-    // Detective — sneaking behind the door's left edge, half size.
-    const pd = pose('S42', 'detective', f, [
-      { f: 0, p: { ...basePose, x: 1565, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'smug' } },
-      { f: len, p: { ...basePose, x: 1565, y: standY(0.5, ROOM_FLOOR_V), scale: 0.5, ...STAND, expr: 'smug' } },
-    ]);
-    const faceD = faceAt(f, [[0, 'smug']]);
     const zoom = kf(f, [[0, 1.12], [len, 1.0]]);
     return (
       <g>
         <g transform={camT(960, 560, zoom)}>
           <NightBedroom t={f} />
           {cast('jake', <LyingJake />)}
-          {cast('detective', <Hero slim look={LOOKS.detective} pose={{ ...pd, ...faceD, facing: 1 }} rimId="rimBlue" shadow={1} />)}
-          {/* door occluder: hides the Detective's right two-thirds so he reads
-              as BEHIND the door, peeking around its left edge. Door fill +
-              panel slices + the left edge stroke, matching NightBedroom. */}
-          <rect x={1560} y={280} width={80} height={596} fill="#241E2C" />
-          <rect x={1590} y={300} width={50} height={260} fill="#1A1424" stroke="#0E0C1E" strokeWidth={3} />
-          <rect x={1590} y={580} width={50} height={276} fill="#1A1424" stroke="#0E0C1E" strokeWidth={3} />
-          <line x1={1560} y1={280} x2={1560} y2={876} stroke="#0E0C1E" strokeWidth={5} />
-          {/* shadow over the peeking zone — the Detective stays in the dark */}
-          <rect x={1500} y={640} width={60} height={236} fill="#000000" opacity={0.25} />
         </g>
       </g>
     );
